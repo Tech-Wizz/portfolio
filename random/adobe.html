@@ -1,0 +1,2074 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Harvest Hills Golf App</title>
+    <meta content="yes" name="apple-touch-fullscreen" />
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="robots" content="noindex">
+
+    <meta property="og:title" content="Harvest Hills Golf App">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://express.adobe.com/page/bwoBCu9alP2Bn/embed.jpg?buster=1668825257239">
+    <meta property="og:image:width" content="1024">
+    <meta property="og:image:height" content="512">
+    <meta property="og:site_name" content="Adobe Express">
+    <meta property="og:description" content="A story told with Adobe Express">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Harvest Hills Golf App">
+    <meta name="twitter:image:src" content="https://express.adobe.com/page/bwoBCu9alP2Bn/embed.jpg?buster=1668825257239">
+    <meta name="twitter:description" content="A story told with Adobe Express">
+
+    <link rel="apple-touch-icon" href="https://express.adobe.com/page/bwoBCu9alP2Bn/embed.jpg?buster=1668825257239">
+    <link rel="icon" href="https://page.adobespark-assets.com/runtime/1.23/images/favicon.ico" sizes="any">
+
+    <meta property="fb:app_id" content="919039361464473">
+    <meta name="twitter:site" content="@AdobeSpark">
+
+    <script src="https://page.adobespark-assets.com/runtime/1.23/base-fonts.gz.js"></script>
+    <script src="https://page.adobespark-assets.com/runtime/1.23/font-subgroup-kits/spark-voltage.gz.js"></script>
+    <script src="https://page.adobespark-assets.com/runtime/1.23/font-subgroup-kits/acumin-pro-semi-condensed.gz.js"></script>
+    <script src="https://page.adobespark-assets.com/runtime/1.23/font-subgroup-kits/clarendon-text-pro.gz.js"></script>
+    <script src="https://page.adobespark-assets.com/runtime/1.23/typekit-load.gz.js"></script>
+    <link href="https://page.adobespark-assets.com/runtime/1.23/runtime.gz.css" type="text/css" rel="stylesheet">
+    <style>
+      /* custom-theme base */
+
+      .vintage-theme .single-column-section .section-background,
+      .vintage-theme .title-section {
+        background-color: #484848;
+      }
+
+      .vintage-theme .title-header {
+        height: 100%;
+        text-align: center;
+        box-sizing: border-box;
+        font-size: 0;
+      }
+
+      .vintage-theme .title-top-left .title-header,
+      .vintage-theme .title-left .title-header,
+      .vintage-theme .title-bottom-left .title-header {
+        text-align: left;
+      }
+      .vintage-theme .title-top .title-header,
+      .vintage-theme .title-center .title-header,
+      .vintage-theme .title-bottom .title-header {
+        text-align: center;
+      }
+      .vintage-theme .title-top-right .title-header,
+      .vintage-theme .title-right .title-header,
+      .vintage-theme .title-bottom-right .title-header {
+        text-align: right;
+      }
+
+      .vintage-theme .title-header:before {
+        content: '';
+        display: inline-block;
+        width: 0;
+        height: 100%;
+        vertical-align: bottom;
+      }
+
+      .vintage-theme .title-top-left .title-header:before,
+      .vintage-theme .title-top .title-header:before,
+      .vintage-theme .title-top-right .title-header:before {
+        vertical-align: top;
+      }
+
+      .vintage-theme .title-left .title-header:before,
+      .vintage-theme .title-center .title-header:before,
+      .vintage-theme .title-right .title-header:before {
+        vertical-align: middle;
+      }
+
+      .vintage-theme .title-header-view {
+        position: relative;
+        display: inline-block;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+      }
+
+      .vintage-theme .title-header .gradient-overlay {
+        background-color: rgba(0, 0, 0, 0);
+        background-image: -webkit-linear-gradient( -270deg /*[gradient-angle-aligned-center]*/, rgba(0,0,0,0)  /*[gradient-stop-0-color-aligned-center]*/ 0% /*[gradient-stop-0-percent-aligned-center]*/, rgba(0,0,0,0.25)  /*[gradient-stop-1-color-aligned-center]*/ 25% /*[gradient-stop-1-percent-aligned-center]*/, rgba(0,0,0,0.50)  /*[gradient-stop-2-color-aligned-center]*/ 50% /*[gradient-stop-2-percent-aligned-center]*/, rgba(0,0,0,0.25)  /*[gradient-stop-3-color-aligned-center]*/ 75% /*[gradient-stop-3-percent-aligned-center]*/, rgba(0,0,0,0)  /*[gradient-stop-4-color-aligned-center]*/ 100% /*[gradient-stop-4-percent-aligned-center]*/);
+        background-image: linear-gradient(0deg,rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0.50) 50%, rgba(0, 0, 0, 0.25) 75%, rgba(0, 0, 0, 0) 100%);
+      }
+
+      .vintage-theme .title-top-left .title-header .gradient-overlay,
+      .vintage-theme .title-top .title-header .gradient-overlay,
+      .vintage-theme .title-top-right .title-header .gradient-overlay {
+        background-image: -webkit-linear-gradient( -270deg /*[gradient-angle-aligned-top]*/, rgba(0,0,0,0)  /*[gradient-stop-0-color-aligned-top]*/ 0% /*[gradient-stop-0-percent-aligned-top]*/, rgba(0,0,0,0.5)  /*[gradient-stop-1-color-aligned-top]*/ 100% /*[gradient-stop-1-percent-aligned-top]*/);
+        background-image: linear-gradient(0deg,rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+      }
+
+      .vintage-theme .title-bottom-left .title-header .gradient-overlay,
+      .vintage-theme .title-bottom .title-header .gradient-overlay,
+      .vintage-theme .title-bottom-right .title-header .gradient-overlay {
+        background-image: -webkit-linear-gradient( -270deg /*[gradient-angle-aligned-bottom]*/, rgba(0,0,0,0.5) /*[gradient-stop-0-color-aligned-bottom]*/ 0% /*[gradient-stop-0-percent-aligned-bottom]*/, rgba(0,0,0,0) /*[gradient-stop-1-color-aligned-bottom]*/ 100% /*[gradient-stop-1-percent-aligned-bottom]*/);
+        background-image: linear-gradient(0deg,rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
+      }
+
+      .vintage-theme .card-flipbook-section .section-content .content-container {
+        box-shadow: 0 0 4px rgba(0,0,0,.25);
+      }
+
+      .vintage-theme .card-flipbook-section .section-content .card-right .content-container {
+        margin-left: auto;
+      }
+
+      .vintage-theme .card-flipbook-section .section-content .card-center .content-container {
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      /* vintage-theme components */
+
+      .vintage-theme.article,
+.vintage-theme .section {
+  background-color: rgba(255,255,255,1);
+}
+
+.vintage-theme .section-content .content-container {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+/*
+ * Browsers vary in their default behavior of <b>/<strong> tags. Some default to
+ * font-weight: bold (Chrome) and others default to font-weight: bolder (Firefox).
+ * We explicitly match Chrome's behavior here so that font face fallback logic
+ * is consistent between browsers (MRVL-15001)
+ */
+.vintage-theme strong,
+.vintage-theme b {
+  font-weight: bold;
+}
+
+/* title-section vintage treatment */
+
+.vintage-theme .title-section {
+  background-color: #484848;
+}
+.vintage-theme .title-header {
+  padding: 64px 5% 64px 5%;
+  background-color: transparent;
+}
+.vintage-theme .title-header-view {
+  padding: 0px 0px 0px 0px;
+  width: 100%;
+  max-width: 89%;
+  background-color: transparent;
+  border-radius: 0px 0px 0px 0px;
+}
+.vintage-theme .title-header .gradient-overlay {
+  display: none;
+}
+.vintage-theme .title-section .gradient-overlay {
+  background: rgba(226, 115, 162, .4);
+}
+.vintage-theme .title-header .title {
+  margin: 0 0;
+  padding: 0 0;
+  max-height: 3.75em;
+  color: rgba(255,255,255,1);
+  font-family: spark-voltage,sans-serif;
+  font-size: 90px;
+  font-style: normal;
+  font-weight: 300;
+  text-transform: none;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-shadow: 0px 2px 2px rgba(0,0,0,0.25);
+}
+.vintage-theme .title-header .subtitle {
+  margin-top: 1rem;
+  padding: 0;
+  max-height: 4.800000000000001em;
+  color: rgba(255,255,255,1);
+  font-family: acumin-pro-semi-condensed,sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  text-transform: none;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-shadow: 0px 2px 2px rgba(0,0,0,0.25);
+}
+.vintage-theme .title-section .section-background:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(90deg, rgba(62,146,187,0.4) 0, transparent 50%, rgba(216,87,65,0.2) 100%), -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 110, color-stop(70%, transparent), color-stop(110%, rgba(0, 0, 0, 0.3)));
+  background: -webkit-linear-gradient(90deg, rgba(62, 146, 187, 0.4), transparent, rgba(216, 87, 65, 0.2)), -webkit-radial-gradient(transparent 70%, rgba(0, 0, 0, 0.3) 110%);
+  background: -moz-linear-gradient(90deg, rgba(62, 146, 187, 0.4), transparent, rgba(216, 87, 65, 0.2)), -moz-radial-gradient(transparent 70%, rgba(0, 0, 0, 0.3) 110%);
+  background: -o-linear-gradient(90deg, rgba(62, 146, 187, 0.4), transparent, rgba(216, 87, 65, 0.2)), -o-radial-gradient(transparent 70%, rgba(0, 0, 0, 0.3) 110%);
+  background: linear-gradient(90deg, rgba(62, 146, 187, 0.4), transparent, rgba(216, 87, 65, 0.2)), radial-gradient(transparent 70%, rgba(0, 0, 0, 0.3) 110%);
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -o-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+  pointer-events: none;
+}
+.vintage-theme .title-section .section-background-image {
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+}
+@media ( max-width: 767px ) {
+  .vintage-theme .title-header {
+    padding: 32px 5% 32px 5%;
+  }
+}
+
+/* Wide Screen Widths */
+
+@media (min-width: 1300px) {
+  /* each pair of title padding values should sum to 30% */
+  .vintage-theme .title-top-left .title-header-view,
+  .vintage-theme .title-left .title-header-view,
+  .vintage-theme .title-bottom-left .title-header-view {
+    padding-left: 10%;
+    padding-right: 20%;
+  }
+  .vintage-theme .title-top .title-header-view,
+  .vintage-theme .title-center .title-header-view,
+  .vintage-theme .title-bottom .title-header-view{
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  .vintage-theme .title-top-right .title-header-view,
+  .vintage-theme .title-right .title-header-view,
+  .vintage-theme .title-bottom-right .title-header-view {
+    padding-left: 20%;
+    padding-right: 10%;
+  }
+}
+
+/* Extra Wide Screen Widths */
+
+@media (min-width: 1800px) {
+  /* each pair of title padding values should sum to 50% */
+  .vintage-theme .title-top-left .title-header-view,
+  .vintage-theme .title-left .title-header-view,
+  .vintage-theme .title-bottom-left .title-header-view {
+    padding-left: 15%;
+    padding-right: 35%;
+  }
+  .vintage-theme .title-top .title-header-view,
+  .vintage-theme .title-center .title-header-view,
+  .vintage-theme .title-bottom .title-header-view {
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+  .vintage-theme .title-top-right .title-header-view,
+  .vintage-theme .title-right .title-header-view,
+  .vintage-theme .title-bottom-right .title-header-view {
+    padding-left: 35%;
+    padding-right: 15%;
+  }
+}
+
+/* Super Wide Screen Widths */
+
+@media (min-width: 2300px) {
+  /* each pair of title padding values should sum to 60% */
+  .vintage-theme .title-top-left .title-header-view,
+  .vintage-theme .title-left .title-header-view,
+  .vintage-theme .title-bottom-left .title-header-view {
+    padding-left: 20%;
+    padding-right: 40%;
+  }
+  .vintage-theme .title-top .title-header-view,
+  .vintage-theme .title-center .title-header-view,
+  .vintage-theme .title-bottom .title-header-view {
+    padding-left: 30%;
+    padding-right: 30%;
+  }
+  .vintage-theme .title-top-right .title-header-view,
+  .vintage-theme .title-right .title-header-view,
+  .vintage-theme .title-bottom-right .title-header-view {
+    padding-left: 40%;
+    padding-right: 20%;
+  }
+}
+
+
+@media ( max-width: 767px ) {
+  .vintage-theme .title-header .title {
+    font-size: 48px;
+  }
+}
+@media ( max-width: 767px ) {
+  .vintage-theme .title-header .subtitle {
+    font-size: 20px;
+  }
+}
+
+
+
+/* heading double-rule treatment */
+
+.vintage-theme .content-container h3 {
+  position: relative;
+  z-index: 0;
+  font-family: clarendon-text-pro,sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: none;
+  line-height: 1.4;
+  letter-spacing: normal;
+  color: rgba(61,52,58,1);
+  text-align: left;
+  margin: 0;
+  padding: 0 0 17px 0;
+}
+
+.vintage-theme .content-container h3:before {
+  content: "";
+  display: inline-block;
+  z-index: -1;
+  position: absolute;
+  top: auto;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 3px;
+  background-color: rgba(225,216,224,0.9);
+}
+
+.vintage-theme .content-container h3:after {
+  content: "";
+  display: inline-block;
+  z-index: -2;
+  position: absolute;
+  top: auto;
+  right: 0px;
+  bottom: 7px;
+  left: 0px;
+  height: 3px;
+  background-color: rgba(225,216,224,0.9);
+}
+
+
+
+@media ( max-width: 767px ) {
+  .vintage-theme .content-container h3 {
+    font-size: 24px;
+  }
+}
+
+.vintage-theme .content-container h4 {
+  font-family: clarendon-text-pro,sans-serif;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: none;
+  line-height: 1.6;
+  letter-spacing: normal;
+  color: rgba(61,52,58,1);
+  text-align: left;
+}
+
+@media ( max-width: 767px ) {
+  .vintage-theme .content-container h4 {
+    font-size: 20px;
+  }
+}
+.vintage-theme .single-column-section .content-container p,
+.vintage-theme .card-flipbook-section .content-container p {
+  font-family: acumin-pro-semi-condensed,sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  text-transform: none;
+  line-height: 1.6;
+  letter-spacing: normal;
+  color: rgba(61,52,58,1);
+}
+
+@media ( max-width: 767px ) {
+  .vintage-theme .single-column-section .content-container p,
+  .vintage-theme .card-flipbook-section .content-container p {
+    font-size: 18px;
+  }
+}
+/* unordered list image treatment */
+
+.vintage-theme .content-container ul {
+  list-style: none;
+}
+
+.vintage-theme .content-container ul li {
+  position: relative;
+  font-family: acumin-pro-semi-condensed,sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  text-transform: none;
+  line-height: 1.6;
+  letter-spacing: normal;
+  color: rgba(61,52,58,1);
+  margin-left: 40px;
+  margin-right: 0px;
+}
+.vintage-theme .content-container ul li:before {
+  content: "";
+  position: absolute;
+  top: 0em;
+  right: auto;
+  bottom: auto;
+  left: -1.3em;
+  width: 0.6em;
+  height: 1.6em;
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxODEiIGhlaWdodD0iMTgxIiB2aWV3Qm94PSIwIDAgMTgxIDE4MSI+PHBhdGggc3R5bGU9ImZpbGw6cmdiYSg2MSw1Miw1OCwxKTsiIGQ9Ik0gMTcyIDkwIEMgMTEyIDEwOSAyNyAxMjYgMiAxODEgQyAxIDE4MCAxIDE3OCAxIDE1OSBDIDQgMTM3IDkgMTA0IDM5IDkxIEMgMzkgOTEgMzkgOTAgMzggODkgQyAxNyA4NiAxIDM4IDEgMjIgQyAxIDIyIDEgMSAxIDEgQyAzOCA2MiAxMjcgNzMgMTcyIDkwIFoiLz48L3N2Zz4=');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 0px 0px 2px transparent;
+}
+
+
+@media ( max-width: 767px ) {
+  .vintage-theme .content-container ul li {
+    font-size: 18px;
+  }
+}
+.vintage-theme .content-container ol li {
+  font-family: acumin-pro-semi-condensed,sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  text-transform: none;
+  line-height: 1.6;
+  letter-spacing: normal;
+  color: rgba(61,52,58,1);
+  margin-left: 36px;
+  margin-right: 0px;
+}
+
+@media ( max-width: 767px ) {
+  .vintage-theme .content-container ol li {
+    font-size: 18px;
+  }
+}
+
+
+
+
+
+/* blockquote color band treatment */
+
+.vintage-theme .content-container blockquote {
+  z-index: 0;
+  position: relative;
+  font-family: acumin-pro-semi-condensed,sans-serif;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 300;
+  text-transform: none;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: rgba(61,52,58,1);
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: -10%;
+  margin-right: -10%;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  padding-left: 0;
+  padding-right: 0;
+}
+.vintage-theme .card-flipbook-section .content-container blockquote {
+  /* Avoid spilling out of the column in a Glideshow */
+  margin-left: 0;
+  margin-right: 0;
+}
+.vintage-theme .content-container blockquote:before{
+  content: "";
+  display: inline-block;
+  z-index: -1;
+  position: absolute;
+  top: 0px;
+  right: -300%;
+  bottom: 0px;
+  left: -300%;
+  background-color: rgba(230,223,229,0.9);
+}
+@media ( max-width: 767px ) {
+  .vintage-theme .content-container blockquote {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media ( max-width: 767px ) {
+  .vintage-theme .content-container blockquote {
+    font-size: 19px;
+  }
+}
+
+.vintage-theme .image-wrapper {
+  overflow: hidden;
+}
+
+/* inline image no treatment */
+
+.vintage-theme .card-flipbook-section .caption, .vintage-theme .single-column-section .caption {
+  font-family: acumin-pro-semi-condensed,sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 300;
+  text-transform: none;
+  line-height: 1.6;
+  letter-spacing: normal;
+  color: rgba(61,52,58,1);
+  text-align: center;
+  margin: .5em 0px;
+}
+
+
+
+@media ( max-width: 767px ) {
+  .vintage-theme .card-flipbook-section .caption, .vintage-theme .single-column-section .caption {
+    font-size: 17px;
+  }
+}
+
+
+
+
+/* button double border treatment */
+
+.vintage-theme .content-container a.link-button {
+  z-index: 0;
+  position: relative;
+  display: inline-block;
+  font-family: acumin-pro-semi-condensed,sans-serif;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 300;
+  text-transform: none;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-decoration: none;
+  text-align: center;
+  color: rgba(61,52,58,1);
+  padding-top: 6px;
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-bottom: 8px;
+  -webkit-transition: color .15s linear;
+  -moz-transition: color .15s linear;
+  -o-transition: color .15s linear;
+  -ms-transition: color .15s linear;
+  transition: color .15s linear;
+}
+.vintage-theme .content-container a.link-button:before{
+  content: "";
+  display: inline-block;
+  z-index: -1;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  bottom: 5px;
+  left: 5px;
+  background-color: rgba(225,216,224,1);
+  border-radius: 3px;
+  -webkit-transition: background-color .15s ease-in-out;
+  -moz-transition: background-color .15s ease-in-out;
+  -o-transition: background-color .15s ease-in-out;
+  -ms-transition: background-color .15s ease-in-out;
+  transition: background-color .15s ease-in-out;
+}
+.vintage-theme .content-container a.link-button:after{
+  content: "";
+  display: inline-block;
+  z-index: -2;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: transparent;
+  border: solid 2px rgba(225,216,224,1);
+  border-radius: 5px 5px 5px 5px;
+  -webkit-transition: border-color .15s ease-in-out;
+  -moz-transition: border-color .15s ease-in-out;
+  -o-transition: border-color .15s ease-in-out;
+  -ms-transition: border-color .15s ease-in-out;
+  transition: border-color .15s ease-in-out;
+}
+.vintage-theme .content-container a.link-button:hover {
+  color: rgba(61,52,58,1);
+}
+.vintage-theme .content-container a.link-button:hover:before {
+  background-color: rgba(192,173,190,1);
+}
+.vintage-theme .content-container a.link-button:hover:after {
+  border-color: rgba(192,173,190,1);
+}
+
+
+
+@media ( max-width: 767px ) {
+  .vintage-theme .content-container a.link-button {
+    font-size: 18px;
+  }
+}
+
+.vintage-theme .single-column-section .content-container a:not(.link-button),
+.vintage-theme .card-flipbook-section .content-container a:not(.link-button),
+.vintage-theme .photo-grid-section    .content-container a:not(.link-button),
+.vintage-theme .full-width-section    .content-container a:not(.link-button) {
+  background-color: transparent;
+  color: rgba(160,136,152,1);
+  text-decoration: 
+underline;
+  -webkit-transition: color .15s linear;
+  -moz-transition: color .15s linear;
+  -o-transition: color .15s linear;
+  -ms-transition: color .15s linear;
+  transition: color .15s linear;
+}
+.vintage-theme .single-column-section .content-container a:not(.link-button):hover,
+.vintage-theme .card-flipbook-section .content-container a:not(.link-button):hover,
+.vintage-theme .photo-grid-section    .content-container a:not(.link-button):hover,
+.vintage-theme .full-width-section    .content-container a:not(.link-button):hover {
+  color: rgba(61,52,58,1);
+}
+
+
+/* full width image no treatment */
+
+.vintage-theme .full-width-section .caption {
+  font-family: acumin-pro-semi-condensed,sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 300;
+  text-transform: none;
+  line-height: 1.6;
+  letter-spacing: normal;
+  color: rgba(61,52,58,1);
+  text-align: center;
+  margin: .5em 0px;
+}
+.vintage-theme .full-width-section .caption {
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+
+
+@media ( max-width: 767px ) {
+  .vintage-theme .full-width-section .caption {
+    font-size: 17px;
+  }
+}
+/* fillscreen section */
+
+
+.vintage-theme .fullscreen-photo-section .pull-quote {
+  position: absolute;
+  top: 0px;
+  right: auto;
+  bottom: auto;
+  left: 0px;
+  margin: 96px 32px;
+  padding: 24px;
+  max-width: 50%;
+  font-family: acumin-pro-semi-condensed,sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 300;
+  text-transform: none;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-shadow: 1px 1px 2px rgba(0,0,0,.35);
+  color: rgba(255,255,255,1);
+  background-color: rgba(0,0,0,0.3);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.vintage-theme .fullscreen-photo-section .pull-quote .content-container {
+  color: rgba(255,255,255,1);
+}
+
+@media ( max-width: 767px ) {
+  .vintage-theme .fullscreen-photo-section .pull-quote {
+    font-size: 19px;
+    margin: 48px 16px;
+    padding: 12px;
+  }
+}
+
+
+/* window section */
+
+.vintage-theme .window-section .pull-quote {
+  position: absolute;
+  top: 0px;
+  right: auto;
+  bottom: auto;
+  left: 0px;
+  margin: 48px 32px;
+  padding: 24px;
+  max-width: 50%;
+  font-family: acumin-pro-semi-condensed,sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 300;
+  text-transform: none;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-shadow: 1px 1px 2px rgba(0,0,0,.35);
+  color: rgba(255,255,255,1);
+  background-color: rgba(0,0,0,0.3);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.vintage-theme .window-section .pull-quote .content-container {
+  color: rgba(255,255,255,1);
+}
+
+@media ( max-width: 767px ) {
+  .vintage-theme .window-section .pull-quote {
+    font-size: 19px;
+    margin: 24px 16px;
+    padding: 12px;
+  }
+}
+
+
+
+/* photo grid no treatment */
+
+.vintage-theme .grid-caption {
+  margin: .5em 0px;
+  font-family: acumin-pro-semi-condensed,sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 300;
+  text-transform: none;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-align: center;
+  color: rgba(61,52,58,1)
+}
+
+
+
+@media ( max-width: 767px ) {
+  .vintage-theme .grid-caption {
+    font-size: 17px;
+  }
+}
+
+.vintage-theme .card-flipbook-section .section-content .content-container {
+  background-color: rgba(255,255,255,0.9);
+}
+.vintage-theme .content-spacer {
+  height: 0.125rem;
+}
+.vintage-theme .content-item-spacer {
+  height: 5.000rem;
+}
+.vintage-theme .section .section-content .content-container {
+  padding-top: 2.500rem;
+  padding-bottom: 2.500rem;
+}
+.vintage-theme .full-width-section .section-content .content-container {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.vintage-theme .section.large-content-spacing-top .section-content .content-container {
+  padding-top: 5.000rem;
+}
+.vintage-theme .section.large-content-spacing-bottom .section-content .content-container {
+  padding-bottom: 5.000rem;
+}
+.vintage-theme .content-container > :first-child {
+  margin-top: 0;
+}
+.vintage-theme .content-container > :last-child {
+  margin-bottom: 0;
+}
+.vintage-theme ul,
+.vintage-theme ol {
+  padding: 0
+}
+.vintage-theme li {
+  margin-bottom: 0.500rem;
+}
+.vintage-theme li:last-child {
+  margin-bottom: 0;
+}
+.vintage-theme .content-container p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.vintage-theme .content-container p + p{
+  margin-top: 2.500rem;
+}
+.vintage-theme .content-container ol + p{
+  margin-top: 2.500rem;
+}
+.vintage-theme .content-container ul + p{
+  margin-top: 2.500rem;
+}
+.vintage-theme .content-container h3 + p{
+  margin-top: 2.500rem;
+}
+.vintage-theme .content-container h4 + p{
+  margin-top: 2.500rem;
+}
+.vintage-theme .content-container blockquote + p{
+  margin-top: 2.500rem;
+}
+.vintage-theme .content-container .link-button-wrapper + p{
+  margin-top: 2.500rem;
+}
+.vintage-theme .content-container div.image + p{
+  margin-top: 2.500rem;
+}
+.vintage-theme .content-container ol {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.vintage-theme .content-container p + ol{
+  margin-top: 2.500rem;
+}
+.vintage-theme .content-container ol + ol{
+  margin-top: 2.500rem;
+}
+.vintage-theme .content-container ul + ol{
+  margin-top: 2.500rem;
+}
+.vintage-theme .content-container h3 + ol{
+  margin-top: 2.500rem;
+}
+.vintage-theme .content-container h4 + ol{
+  margin-top: 2.500rem;
+}
+.vintage-theme .content-container blockquote + ol{
+  margin-top: 2.500rem;
+}
+.vintage-theme .content-container .link-button-wrapper + ol{
+  margin-top: 2.500rem;
+}
+.vintage-theme .content-container div.image + ol{
+  margin-top: 2.500rem;
+}
+.vintage-theme .content-container ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.vintage-theme .content-container p + ul{
+  margin-top: 2.500rem;
+}
+.vintage-theme .content-container ol + ul{
+  margin-top: 2.500rem;
+}
+.vintage-theme .content-container ul + ul{
+  margin-top: 2.500rem;
+}
+.vintage-theme .content-container h3 + ul{
+  margin-top: 2.500rem;
+}
+.vintage-theme .content-container h4 + ul{
+  margin-top: 2.500rem;
+}
+.vintage-theme .content-container blockquote + ul{
+  margin-top: 2.500rem;
+}
+.vintage-theme .content-container .link-button-wrapper + ul{
+  margin-top: 2.500rem;
+}
+.vintage-theme .content-container div.image + ul{
+  margin-top: 2.500rem;
+}
+.vintage-theme .content-container h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.vintage-theme .content-container p + h3{
+  margin-top: 2.500rem;
+}
+.vintage-theme .content-container ol + h3{
+  margin-top: 2.500rem;
+}
+.vintage-theme .content-container ul + h3{
+  margin-top: 2.500rem;
+}
+.vintage-theme .content-container h3 + h3{
+  margin-top: 2.500rem;
+}
+.vintage-theme .content-container h4 + h3{
+  margin-top: 2.500rem;
+}
+.vintage-theme .content-container blockquote + h3{
+  margin-top: 2.500rem;
+}
+.vintage-theme .content-container .link-button-wrapper + h3{
+  margin-top: 2.500rem;
+}
+.vintage-theme .content-container div.image + h3{
+  margin-top: 2.500rem;
+}
+.vintage-theme .content-container h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.vintage-theme .content-container p + h4{
+  margin-top: 2.500rem;
+}
+.vintage-theme .content-container ol + h4{
+  margin-top: 2.500rem;
+}
+.vintage-theme .content-container ul + h4{
+  margin-top: 2.500rem;
+}
+.vintage-theme .content-container h3 + h4{
+  margin-top: 2.500rem;
+}
+.vintage-theme .content-container h4 + h4{
+  margin-top: 2.500rem;
+}
+.vintage-theme .content-container blockquote + h4{
+  margin-top: 2.500rem;
+}
+.vintage-theme .content-container .link-button-wrapper + h4{
+  margin-top: 2.500rem;
+}
+.vintage-theme .content-container div.image + h4{
+  margin-top: 2.500rem;
+}
+.vintage-theme .content-container blockquote {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.vintage-theme .content-container p + blockquote{
+  margin-top: 2.500rem;
+}
+.vintage-theme .content-container ol + blockquote{
+  margin-top: 2.500rem;
+}
+.vintage-theme .content-container ul + blockquote{
+  margin-top: 2.500rem;
+}
+.vintage-theme .content-container h3 + blockquote{
+  margin-top: 2.500rem;
+}
+.vintage-theme .content-container h4 + blockquote{
+  margin-top: 2.500rem;
+}
+.vintage-theme .content-container blockquote + blockquote{
+  margin-top: 2.500rem;
+}
+.vintage-theme .content-container .link-button-wrapper + blockquote{
+  margin-top: 2.500rem;
+}
+.vintage-theme .content-container div.image + blockquote{
+  margin-top: 2.500rem;
+}
+.vintage-theme .content-container .link-button-wrapper {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.vintage-theme .content-container p + .link-button-wrapper{
+  margin-top: 2.500rem;
+}
+.vintage-theme .content-container ol + .link-button-wrapper{
+  margin-top: 2.500rem;
+}
+.vintage-theme .content-container ul + .link-button-wrapper{
+  margin-top: 2.500rem;
+}
+.vintage-theme .content-container h3 + .link-button-wrapper{
+  margin-top: 2.500rem;
+}
+.vintage-theme .content-container h4 + .link-button-wrapper{
+  margin-top: 2.500rem;
+}
+.vintage-theme .content-container blockquote + .link-button-wrapper{
+  margin-top: 2.500rem;
+}
+.vintage-theme .content-container .link-button-wrapper + .link-button-wrapper{
+  margin-top: 2.500rem;
+}
+.vintage-theme .content-container div.image + .link-button-wrapper{
+  margin-top: 2.500rem;
+}
+.vintage-theme .content-container div.image {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.vintage-theme .content-container p + div.image{
+  margin-top: 2.500rem;
+}
+.vintage-theme .content-container ol + div.image{
+  margin-top: 2.500rem;
+}
+.vintage-theme .content-container ul + div.image{
+  margin-top: 2.500rem;
+}
+.vintage-theme .content-container h3 + div.image{
+  margin-top: 2.500rem;
+}
+.vintage-theme .content-container h4 + div.image{
+  margin-top: 2.500rem;
+}
+.vintage-theme .content-container blockquote + div.image{
+  margin-top: 2.500rem;
+}
+.vintage-theme .content-container .link-button-wrapper + div.image{
+  margin-top: 2.500rem;
+}
+.vintage-theme .content-container div.image + div.image{
+  margin-top: 2.500rem;
+}
+.vintage-theme .photo-grid-section + .single-column-section h3:first-child,
+.vintage-theme .photo-grid-section + .single-column-section h4:first-child,
+.vintage-theme .photo-grid-section + .single-column-section blockquote:first-child {
+  margin-top: 2.500rem;
+}
+.vintage-theme .photo-grid-section + .single-column-section blockquote:last-child {
+  margin-top: 2.500rem;
+}
+@media (max-width: 767px) {
+  .vintage-theme .content-spacer {
+    height: 0.125rem;
+  }
+  .vintage-theme .content-item-spacer {
+    height: 2.500rem;
+  }
+  .vintage-theme .section .section-content .content-container {
+    padding-top: 1.250rem;
+    padding-bottom: 1.250rem;
+  }
+  .vintage-theme .full-width-section .section-content .content-container {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .vintage-theme .section.large-content-spacing-top .section-content .content-container {
+    padding-top: 2.500rem;
+  }
+  .vintage-theme .section.large-content-spacing-bottom .section-content .content-container {
+    padding-bottom: 2.500rem;
+  }
+  .vintage-theme .content-container > :first-child {
+    margin-top: 0;
+  }
+  .vintage-theme .content-container > :last-child {
+    margin-bottom: 0;
+  }
+  .vintage-theme ul,
+  .vintage-theme ol {
+    padding: 0
+  }
+  .vintage-theme li {
+    margin-bottom: 0.250rem;
+  }
+  .vintage-theme li:last-child {
+    margin-bottom: 0;
+  }
+  .vintage-theme .content-container p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .vintage-theme .content-container p + p{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .content-container ol + p{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .content-container ul + p{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .content-container h3 + p{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .content-container h4 + p{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .content-container blockquote + p{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .content-container .link-button-wrapper + p{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .content-container div.image + p{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .content-container ol {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .vintage-theme .content-container p + ol{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .content-container ol + ol{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .content-container ul + ol{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .content-container h3 + ol{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .content-container h4 + ol{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .content-container blockquote + ol{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .content-container .link-button-wrapper + ol{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .content-container div.image + ol{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .content-container ul {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .vintage-theme .content-container p + ul{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .content-container ol + ul{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .content-container ul + ul{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .content-container h3 + ul{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .content-container h4 + ul{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .content-container blockquote + ul{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .content-container .link-button-wrapper + ul{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .content-container div.image + ul{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .content-container h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .vintage-theme .content-container p + h3{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .content-container ol + h3{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .content-container ul + h3{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .content-container h3 + h3{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .content-container h4 + h3{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .content-container blockquote + h3{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .content-container .link-button-wrapper + h3{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .content-container div.image + h3{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .content-container h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .vintage-theme .content-container p + h4{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .content-container ol + h4{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .content-container ul + h4{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .content-container h3 + h4{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .content-container h4 + h4{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .content-container blockquote + h4{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .content-container .link-button-wrapper + h4{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .content-container div.image + h4{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .content-container blockquote {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .vintage-theme .content-container p + blockquote{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .content-container ol + blockquote{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .content-container ul + blockquote{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .content-container h3 + blockquote{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .content-container h4 + blockquote{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .content-container blockquote + blockquote{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .content-container .link-button-wrapper + blockquote{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .content-container div.image + blockquote{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .content-container .link-button-wrapper {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .vintage-theme .content-container p + .link-button-wrapper{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .content-container ol + .link-button-wrapper{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .content-container ul + .link-button-wrapper{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .content-container h3 + .link-button-wrapper{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .content-container h4 + .link-button-wrapper{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .content-container blockquote + .link-button-wrapper{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .content-container .link-button-wrapper + .link-button-wrapper{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .content-container div.image + .link-button-wrapper{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .content-container div.image {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .vintage-theme .content-container p + div.image{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .content-container ol + div.image{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .content-container ul + div.image{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .content-container h3 + div.image{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .content-container h4 + div.image{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .content-container blockquote + div.image{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .content-container .link-button-wrapper + div.image{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .content-container div.image + div.image{
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .photo-grid-section + .single-column-section h3:first-child,
+  .vintage-theme .photo-grid-section + .single-column-section h4:first-child,
+  .vintage-theme .photo-grid-section + .single-column-section blockquote:first-child {
+    margin-top: 1.250rem;
+  }
+  .vintage-theme .photo-grid-section + .single-column-section blockquote:last-child {
+    margin-top: 1.250rem;
+  }
+}
+
+
+
+/* Default Screen Widths */
+
+.vintage-theme .section-content .content-container {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.vintage-theme .card-flipbook-section .section-content .content-container {
+  width: 50%;
+  margin: 32px 32px;
+  padding: 56px 32px;
+}
+
+.vintage-theme .card-flipbook-section .section-content .card-center .content-container {
+  width: 65%;
+  max-width: 900px;
+}
+
+/* Narrow Screen Widths */
+
+@media (max-width: 768px) {
+  .vintage-theme .section-content .content-container {
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+  }
+  .vintage-theme .card-flipbook-section .section-content .content-container {
+    width: 60%;
+    margin: 32px 32px;
+    padding: 56px 32px;
+  }
+  .vintage-theme .card-flipbook-section .section-content .card-center .content-container {
+    width: 75%;
+    max-width: 900px;
+  }
+}
+
+/* Extra Narrow Screen Widths */
+
+@media (max-width: 480px) {
+  .vintage-theme .section-content .content-container {
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+  .vintage-theme .card-flipbook-section .section-content .content-container {
+    width: 70%;
+    margin: 18px 14px;
+    padding: 31px 13px;
+  }
+  .vintage-theme .card-flipbook-section .section-content .card-center .content-container {
+    width: 75%;
+    max-width: 900px;
+  }
+}
+
+/* Super Narrow Screen Widths */
+
+@media (max-width: 320px) {
+  .vintage-theme .section-content .content-container {
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+  .vintage-theme .card-flipbook-section .section-content .content-container {
+    width: 70%;
+    margin: 18px 14px;
+    padding: 31px 12px;
+  }
+  .vintage-theme .card-flipbook-section .section-content .card-center .content-container {
+    width: 75%;
+    max-width: 900px;
+  }
+}
+
+/* Wide Screen Widths */
+
+@media (min-width: 1300px) {
+  .vintage-theme  .section-content .content-container {
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+
+  .vintage-theme  .card-flipbook-section .section-content .content-container {
+    width: 40%;
+    margin: 32px 32px;
+    padding: 56px 32px;
+    max-width: 580px;
+  }
+  .vintage-theme  .card-flipbook-section .section-content .card-center .content-container {
+    width: 65%;
+    max-width: 900px;
+  }
+}
+
+/* Extra Wide Screen Widths */
+
+@media (min-width: 1800px) {
+  .vintage-theme .section-content .content-container {
+    padding-left: 30%;
+    padding-right: 30%;
+  }
+
+  .vintage-theme .card-flipbook-section .section-content .content-container {
+    width: 30%;
+    margin: 32px 80px;
+    padding: 56px 32px;
+    max-width: 580px;
+  }
+  .vintage-theme .card-flipbook-section .section-content .card-center .content-container {
+    width: 65%;
+    max-width: 900px;
+  }
+}
+
+/* Super Wide Screen Widths */
+
+@media (min-width: 2300px) {
+  .vintage-theme .section-content .content-container {
+    padding-left: 33%;
+    padding-right: 33%;
+  }
+
+  .vintage-theme  .card-flipbook-section .section-content .content-container {
+    width: 25%;
+    margin: 32px 80px;
+    padding: 56px 32px;
+    max-width: 580px;
+  }
+  .vintage-theme  .card-flipbook-section .section-content .card-center .content-container {
+    width: 65%;
+    max-width: 900px;
+  }
+}
+
+.vintage-theme .section.author-section .author-appreciation-container {
+  border-color: rgba(61,52,58,0.5);
+}
+.vintage-theme .section.author-section .author {
+  font-family: acumin-pro-semi-condensed;
+  color: rgba(61,52,58,1);
+}
+
+.vintage-theme .section.author-section .appreciate-button {
+  color: rgba(61,52,58,0.5);
+  border-color: rgba(61,52,58,0.5);
+}
+
+.vintage-theme .section.author-section .appreciate-button:before {
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIj48cGF0aCBzdHlsZT0iZmlsbDpyZ2JhKDYxLDUyLDU4LDAuNSk7IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIDMpIiBkPSJNMTYsMjZMMi44LDE0LjRDMS4xLDEyLjksMCwxMC43LDAsOC40YzAtMi4zLDEtNC41LDIuOC02QzQuNiwwLjksNi45LDAsOS4yLDBjMi40LDAsNC42LDAuOCw2LjQsMi40YzAuMSwwLjEsMC4zLDAuMywwLjQsMC40YzAuMS0wLjEsMC4zLTAuMywwLjQtMC40QzE4LjIsMC45LDIwLjUsMCwyMi44LDBjMi4zLDAsNC42LDAuOCw2LjQsMi40QzMxLDMuOSwzMiw2LjEsMzIsOC40YzAsMi4zLTEsNC41LTIuOCw2TDE2LDI2eiBNOS4yLDQuN0M4LDQuNyw2LjksNS4yLDYsNS45QzUuMyw2LjUsNC44LDcuNCw0LjgsOC40YzAsMSwwLjUsMS45LDEuMiwyLjVsMTAsOC44bDEwLTguOGMwLjctMC42LDEuMi0xLjUsMS4yLTIuNWMwLTEtMC41LTEuOS0xLjItMi41Yy0xLjktMS41LTQuNS0xLjUtNi40LDBjLTAuNywwLjYtMS4yLDEuNS0xLjIsMi41aC00LjhjMC0xLTAuNS0xLjktMS4yLTIuNUMxMS41LDUuMSwxMC40LDQuNyw5LjIsNC43eiIvPjwvc3ZnPg==');
+}
+
+.vintage-theme .section.author-section .appreciate-button:after {
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIj48cGF0aCBzdHlsZT0iZmlsbDpyZ2JhKDYxLDUyLDU4LDEpOyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCAzKSIgZD0iTTIuOCwxNC40QzEuMSwxMi45LDAsMTAuNywwLDguNGMwLTIuMywxLTQuNSwyLjgtNkM0LjYsMC45LDYuOSwwLDkuMiwwYzIuNCwwLDQuNiwwLjgsNi40LDIuNGMwLjEsMC4xLDAuMywwLjMsMC40LDAuNGMwLjEtMC4xLDAuMy0wLjMsMC40LTAuNEMxOC4yLDAuOSwyMC41LDAsMjIuOCwwYzIuMywwLDQuNiwwLjgsNi40LDIuNEMzMSwzLjksMzIsNi4xLDMyLDguNGMwLDIuMy0xLDQuNS0yLjgsNkwxNiwyNiIvPjwvc3ZnPg==');
+}
+
+.vintage-theme .section.author-section .appreciate-button.appreciated:before {
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIj48cGF0aCBzdHlsZT0iZmlsbDpyZ2JhKDYxLDUyLDU4LDAuNSk7IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIDMpIiBkPSJNMi44LDE0LjRDMS4xLDEyLjksMCwxMC43LDAsOC40YzAtMi4zLDEtNC41LDIuOC02QzQuNiwwLjksNi45LDAsOS4yLDBjMi40LDAsNC42LDAuOCw2LjQsMi40YzAuMSwwLjEsMC4zLDAuMywwLjQsMC40YzAuMS0wLjEsMC4zLTAuMywwLjQtMC40QzE4LjIsMC45LDIwLjUsMCwyMi44LDBjMi4zLDAsNC42LDAuOCw2LjQsMi40QzMxLDMuOSwzMiw2LjEsMzIsOC40YzAsMi4zLTEsNC41LTIuOCw2TDE2LDI2Ii8+PC9zdmc+');
+}
+
+.vintage-theme .section.author-section .appreciate-button.appreciated:after {
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIj48cGF0aCBzdHlsZT0iZmlsbDpyZ2JhKDYxLDUyLDU4LDEpOyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCAzKSIgZD0iTTE2LDI2TDIuOCwxNC40QzEuMSwxMi45LDAsMTAuNywwLDguNGMwLTIuMywxLTQuNSwyLjgtNkM0LjYsMC45LDYuOSwwLDkuMiwwYzIuNCwwLDQuNiwwLjgsNi40LDIuNGMwLjEsMC4xLDAuMywwLjMsMC40LDAuNGMwLjEtMC4xLDAuMy0wLjMsMC40LTAuNEMxOC4yLDAuOSwyMC41LDAsMjIuOCwwYzIuMywwLDQuNiwwLjgsNi40LDIuNEMzMSwzLjksMzIsNi4xLDMyLDguNGMwLDIuMy0xLDQuNS0yLjgsNkwxNiwyNnogTTkuMiw0LjdDOCw0LjcsNi45LDUuMiw2LDUuOUM1LjMsNi41LDQuOCw3LjQsNC44LDguNGMwLDEsMC41LDEuOSwxLjIsMi41bDEwLDguOGwxMC04LjhjMC43LTAuNiwxLjItMS41LDEuMi0yLjVjMC0xLTAuNS0xLjktMS4yLTIuNWMtMS45LTEuNS00LjUtMS41LTYuNCwwYy0wLjcsMC42LTEuMiwxLjUtMS4yLDIuNWgtNC44YzAtMS0wLjUtMS45LTEuMi0yLjVDMTEuNSw1LjEsMTAuNCw0LjcsOS4yLDQuN3oiLz48L3N2Zz4=');
+}
+
+.publication-viewer.touch-disabled .vintage-theme .section.author-section .appreciate-button:hover {
+  color: rgba(61,52,58,1);
+  border-color: rgba(61,52,58,1);
+}
+
+.publication-viewer.touch-disabled .vintage-theme .section.author-section .appreciate-button:active {
+  color: rgba(61,52,58,0.5);
+  border-color: rgba(61,52,58,0.5);
+}
+
+.publication-viewer.touch-disabled .vintage-theme .section.author-section .appreciate-button:active:after {
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIj48cGF0aCBzdHlsZT0iZmlsbDpyZ2JhKDYxLDUyLDU4LDAuNSk7IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIDMpIiBkPSJNMi44LDE0LjRDMS4xLDEyLjksMCwxMC43LDAsOC40YzAtMi4zLDEtNC41LDIuOC02QzQuNiwwLjksNi45LDAsOS4yLDBjMi40LDAsNC42LDAuOCw2LjQsMi40YzAuMSwwLjEsMC4zLDAuMywwLjQsMC40YzAuMS0wLjEsMC4zLTAuMywwLjQtMC40QzE4LjIsMC45LDIwLjUsMCwyMi44LDBjMi4zLDAsNC42LDAuOCw2LjQsMi40QzMxLDMuOSwzMiw2LjEsMzIsOC40YzAsMi4zLTEsNC41LTIuOCw2TDE2LDI2Ii8+PC9zdmc+');
+}
+
+.publication-viewer.touch-disabled .vintage-theme .section.author-section .appreciate-button.appreciated:active:after {
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIj48cGF0aCBzdHlsZT0iZmlsbDpyZ2JhKDYxLDUyLDU4LDAuNSk7IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIDMpIiBkPSJNMTYsMjZMMi44LDE0LjRDMS4xLDEyLjksMCwxMC43LDAsOC40YzAtMi4zLDEtNC41LDIuOC02QzQuNiwwLjksNi45LDAsOS4yLDBjMi40LDAsNC42LDAuOCw2LjQsMi40YzAuMSwwLjEsMC4zLDAuMywwLjQsMC40YzAuMS0wLjEsMC4zLTAuMywwLjQtMC40QzE4LjIsMC45LDIwLjUsMCwyMi44LDBjMi4zLDAsNC42LDAuOCw2LjQsMi40QzMxLDMuOSwzMiw2LjEsMzIsOC40YzAsMi4zLTEsNC41LTIuOCw2TDE2LDI2eiBNOS4yLDQuN0M4LDQuNyw2LjksNS4yLDYsNS45QzUuMyw2LjUsNC44LDcuNCw0LjgsOC40YzAsMSwwLjUsMS45LDEuMiwyLjVsMTAsOC44bDEwLTguOGMwLjctMC42LDEuMi0xLjUsMS4yLTIuNWMwLTEtMC41LTEuOS0xLjItMi41Yy0xLjktMS41LTQuNS0xLjUtNi40LDBjLTAuNywwLjYtMS4yLDEuNS0xLjIsMi41aC00LjhjMC0xLTAuNS0xLjktMS4yLTIuNUMxMS41LDUuMSwxMC40LDQuNyw5LjIsNC43eiIvPjwvc3ZnPg==');
+}
+
+
+.vintage-theme .section.credits-section {
+  color: rgba(61,52,58,1);
+}
+
+      /* behaviors css */
+      /* Default content behaviors */
+
+.vintage-theme div.image {
+  -webkit-transition: opacity .5s cubic-bezier(0.455, 0.030, 0.515, 0.955), -webkit-transform .5s cubic-bezier(0.455, 0.030, 0.515, 0.955);
+  -moz-transition: opacity .5s cubic-bezier(0.455, 0.030, 0.515, 0.955), -moz-transform .5s cubic-bezier(0.455, 0.030, 0.515, 0.955);
+  -o-transition: opacity .5s cubic-bezier(0.455, 0.030, 0.515, 0.955), -o-transform .5s cubic-bezier(0.455, 0.030, 0.515, 0.955);
+  -ms-transition: opacity .5s cubic-bezier(0.455, 0.030, 0.515, 0.955), -ms-transform .5s cubic-bezier(0.455, 0.030, 0.515, 0.955);
+  transition: opacity .5s cubic-bezier(0.455, 0.030, 0.515, 0.955), transform .5s cubic-bezier(0.455, 0.030, 0.515, 0.955);
+
+  opacity: 1;
+
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -o-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.vintage-theme div.image.hidden {
+  opacity: 0;
+
+  -webkit-transform: translate3d(0,40px,0);
+  -moz-transform: translate3d(0,40px,0);
+  -o-transform: translate3d(0,40px,0);
+  -ms-transform: translate3d(0,40px,0);
+  transform: translate3d(0,40px,0);
+}
+
+.vintage-theme .caption,
+.vintage-theme .grid-caption {
+  -webkit-transition: opacity .5s cubic-bezier(0.250, 0.460, 0.450, 0.940), -webkit-transform .5s cubic-bezier(0.250, 0.460, 0.450, 0.940);
+  -moz-transition: opacity .5s cubic-bezier(0.250, 0.460, 0.450, 0.940), -moz-transform .5s cubic-bezier(0.250, 0.460, 0.450, 0.940);
+  -o-transition: opacity .5s cubic-bezier(0.250, 0.460, 0.450, 0.940), -o-transform .5s cubic-bezier(0.250, 0.460, 0.450, 0.940);
+  -ms-transition: opacity .5s cubic-bezier(0.250, 0.460, 0.450, 0.940), -ms-transform .5s cubic-bezier(0.250, 0.460, 0.450, 0.940);
+  transition: opacity .5s cubic-bezier(0.250, 0.460, 0.450, 0.940), transform .5s cubic-bezier(0.250, 0.460, 0.450, 0.940);
+
+  opacity: 1;
+
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -o-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.vintage-theme .caption.hidden,
+.vintage-theme .grid-caption.hidden {
+  opacity: 0;
+
+  -webkit-transform: translate3d(20px,0,0);
+  -moz-transform: translate3d(20px,0,0);
+  -o-transform: translate3d(20px,0,0);
+  -ms-transform: translate3d(20px,0,0);
+  transform: translate3d(20px,0,0);
+}
+
+.vintage-theme blockquote {
+  -webkit-transition: opacity .5s cubic-bezier(0.250, 0.460, 0.450, 0.940), -webkit-transform .5s cubic-bezier(0.250, 0.460, 0.450, 0.940);
+  -moz-transition: opacity .5s cubic-bezier(0.250, 0.460, 0.450, 0.940), -moz-transform .5s cubic-bezier(0.250, 0.460, 0.450, 0.940);
+  -o-transition: opacity .5s cubic-bezier(0.250, 0.460, 0.450, 0.940), -o-transform .5s cubic-bezier(0.250, 0.460, 0.450, 0.940);
+  -ms-transition: opacity .5s cubic-bezier(0.250, 0.460, 0.450, 0.940), -ms-transform .5s cubic-bezier(0.250, 0.460, 0.450, 0.940);
+  transition: opacity .5s cubic-bezier(0.250, 0.460, 0.450, 0.940), transform .5s cubic-bezier(0.250, 0.460, 0.450, 0.940);
+
+  opacity: 1;
+
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -o-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.vintage-theme blockquote.hidden {
+  opacity: 0;
+
+  -webkit-transform: translate3d(20px,0,0);
+  -moz-transform: translate3d(20px,0,0);
+  -o-transform: translate3d(20px,0,0);
+  -ms-transform: translate3d(20px,0,0);
+  transform: translate3d(20px,0,0);
+}
+
+
+      /* overrides to some alignments defined after component
+         styles to make sure they will override the component
+         defaults when they have the same specificity */
+
+      .vintage-theme .link-button-wrapper, /* default */
+      .vintage-theme .link-button-wrapper.link-left {
+        text-align: left;
+      }
+
+      .vintage-theme .link-button-wrapper.link-center {
+        text-align: center;
+      }
+
+      .vintage-theme .link-button-wrapper.link-right {
+        text-align: right;
+      }
+
+      .vintage-theme p.text-left,
+      .vintage-theme h3.text-left,
+      .vintage-theme h4.text-left,
+      .vintage-theme .caption.text-left,
+      .vintage-theme .grid-caption.text-left {
+        text-align: left;
+      }
+
+      .vintage-theme .caption, /* defaults */
+      .vintage-theme .grid-caption,
+
+      .vintage-theme p.text-center,
+      .vintage-theme h3.text-center,
+      .vintage-theme h4.text-center,
+      .vintage-theme .caption.text-center,
+      .vintage-theme .grid-caption.text-center {
+        text-align: center;
+      }
+
+      .vintage-theme p.text-right,
+      .vintage-theme h3.text-right,
+      .vintage-theme h4.text-right,
+      .vintage-theme .caption.text-right,
+      .vintage-theme .grid-caption.text-right {
+        text-align: right;
+      }
+
+      .vintage-theme .caption-right .pull-quote {
+        right: 3%;
+        left: auto;
+        margin-left: 0;
+        margin-right: 2rem;
+      }
+    </style>
+    <noscript id="noscript-static-layout" data-href="https://page.adobespark-assets.com/runtime/1.23/noscript.gz.css">
+      <link href="https://page.adobespark-assets.com/runtime/1.23/noscript.gz.css" type="text/css" rel="stylesheet">
+    </noscript>
+    <!--BEGIN-BUMPER-STYLE-SHEET-->
+    <!--END-BUMPER-STYLE-SHEET-->
+</head>
+<body class="">
+  <div id="app">
+    <div id="publication-viewer" class="publication-viewer">
+      <div id="luca-splash" class="splash">
+        <div class="background" style="background-image: url(images/c94b0e52-5de4-4f75-8337-8a2a02f265ab.jpg?asset_id=1edc795b-b295-405d-befb-b6f1c616e8f2&img_etag=%228bedf9db28590c07de18742f1b0c684d%22&size=1024); background-position: 50% 50%;"></div>
+        <div class="content">
+          <div class="logo"></div>
+          <div class="loading-label">Loading</div>
+          <div class="wp-progress-bar">
+            <div class="wp-progress-bar-clip">
+              <div class="wp-progress-bar-view"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+            <div class="publication-view">
+        <div class="wp-swipe-panel-group">
+          <div class="wp-swipe-panel-group-view">
+              <div class="wp-swipe-panel-group-panel article-panel">
+                <div class="article vintage-theme sections-article-layout" data-article-type="sections-article">
+        <div class="section title-section title-center"  data-section-behavior="vintage-title"  data-layer="1" data-layer-name="over" data-scroll-after-animation="false">
+        <div class="section-view">
+          <div class="section-background ">
+            <div class="section-background-image"  style="background-position: 50% 50%;"><a class="background-image-placeholder-link" href="images/c94b0e52-5de4-4f75-8337-8a2a02f265ab.jpg?asset_id=1edc795b-b295-405d-befb-b6f1c616e8f2&img_etag=%228bedf9db28590c07de18742f1b0c684d%22&size=1024" data-image-width="2356" data-image-height="1571"></a></div>
+          </div>
+
+            <div class="title-header">
+              <h1 class="title-header-view">
+                <span class="gradient-overlay"></span>
+                <span class="title">Harvest Hills Golf App</span>
+                <span class="subtitle">A local app for a local golf course</span>
+              </h1>
+            </div>
+      
+          <div class="navigation-hint down"></div>
+        </div>
+      </div>
+      <div class="section spacer-section content-spacer bottom-shadow" data-section-behavior="vintage-spacer" data-layer-name="over">
+      </div>
+      <div class="section fullscreen-photo-section  caption-left" data-section-behavior="vintage-fullscreen-photo" data-layer="-1" data-layer-name="under" data-zoom-start="" data-zoom-stop="" data-zoom-to="" data-zoom-from="" data-fixed="">
+          <figure role="img" aria-label="Stage 1: Empathize—Research Your Users&#39; Needs" class="section-view">
+            <div class="section-background">
+              <div class="section-background-image" style="background-position: 50% 50%;"><a class="background-image-placeholder-link" href="images/86d24eae-74b8-49d1-9da4-c8e739415458.jpg?asset_id=b839231a-fa30-448b-9382-16145620cfca&img_etag=%22f1a000aa9adfd079b9019a1a288365fc%22&size=1024" data-image-width="2356" data-image-height="1570"></a></div>
+            </div>
+            <figcaption class="pull-quote">
+              <div class="pull-quote-view">
+                <div class="content-container">Stage 1: Empathize—Research Your Users&#39; Needs</div>
+              </div>
+            </figcaption>
+          </figure>
+      </div>
+      <div class="section single-column-section  large-content-spacing-top top-shadow" data-section-behavior="vintage-single-column" data-layer="1" data-layer-name="over">
+        <div class="section-view">
+          <div class="section-content">
+            <div class="section-content-view">
+              <div class="content-container">
+                            <h3 class=" text-left" >Problem Statement</h3>
+                                  <p class=" " >The issue that I am trying to solve is making a golf app that is free to use and can be used in most scenarios on a golf course. The scenarios I want to cover are more regular play, tournament play, and league play.</p>
+                                  <h3 class=" " >Recruitment Strategy</h3>
+                                  <p class=" " >My recruit strategy was to find people, directly and indirectly, focused on how connected people would be with the app. For the directly involved I tried to find people more engaged with the course as a local or regular golfer. By this I had someone I knew who was on the golf board and did tournaments and leagues. Another directly involved type of person I did was they are familiar with but are not as competitive. The more indirect people I ask were those who know golf or aren’t familiar. This one was a little easier because I could go ask engineering students for this part. My main goal was to get a few people familiar with the issue and then try and get a diverse opinion on the issue.</p>
+                                  <h3 class=" " >Interviewing Strategy</h3>
+                                  <p class=" " >For my interview strategy, I used the approach of getting to know the other person briefly by finding out information about local status, golf status, and everyday devices. Similar to how a car can show people their personality, their phone can also say the same. After finding out this information I can then ask for more specific details that are included on other golf apps or missing from other golf apps</p>
+                    </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section photo-grid-section" data-section-behavior="vintage-photo-grid" data-layer-name="over">
+        <div class="section-view">
+          <div class="section-content">
+            <div class="section-content-view">
+              <div class="content-container">
+                <div class="photo-grid">
+                    <div class="photo-group-container">
+                      <div class="photo-group t4-layout-pppp-1">
+                          <div class="photo-container tile">
+                            <a aria-hidden="true" class="photo-image" href="images/e49eb806-7467-40f0-bae1-d3525f59265a.png?asset_id=40562519-26d1-4baa-bdf0-c6b6662f1f49&img_etag=%22c082d704498afb394a122dab89e28b53%22&size=1024" data-src="images/e49eb806-7467-40f0-bae1-d3525f59265a.png?asset_id=40562519-26d1-4baa-bdf0-c6b6662f1f49&img_etag=%22c082d704498afb394a122dab89e28b53%22&size=1024" data-image-width="1023" data-image-height="1325"><span class="background-image-placeholder-link" data-href="images/e49eb806-7467-40f0-bae1-d3525f59265a.png?asset_id=40562519-26d1-4baa-bdf0-c6b6662f1f49&img_etag=%22c082d704498afb394a122dab89e28b53%22&size=512"></span></a>
+                          </div>
+                          <div class="photo-container tile">
+                            <a aria-hidden="true" class="photo-image" href="images/e955a111-7b5f-4116-97d4-17c4e40a5dc3.png?asset_id=f50625de-d169-4041-ae99-f40b0e4703ae&img_etag=%220318a2e049782ceb484bbe5c1d8bb641%22&size=1024" data-src="images/e955a111-7b5f-4116-97d4-17c4e40a5dc3.png?asset_id=f50625de-d169-4041-ae99-f40b0e4703ae&img_etag=%220318a2e049782ceb484bbe5c1d8bb641%22&size=1024" data-image-width="1023" data-image-height="1325"><span class="background-image-placeholder-link" data-href="images/e955a111-7b5f-4116-97d4-17c4e40a5dc3.png?asset_id=f50625de-d169-4041-ae99-f40b0e4703ae&img_etag=%220318a2e049782ceb484bbe5c1d8bb641%22&size=512"></span></a>
+                          </div>
+                          <div class="photo-container tile">
+                            <a aria-hidden="true" class="photo-image" href="images/d38e5c0d-f535-4188-8327-a2b325975438.png?asset_id=c3005881-74ae-4848-b3eb-e9cee9c1ea4b&img_etag=%2292f8e0b32824786fa6afc1ace19b3088%22&size=1024" data-src="images/d38e5c0d-f535-4188-8327-a2b325975438.png?asset_id=c3005881-74ae-4848-b3eb-e9cee9c1ea4b&img_etag=%2292f8e0b32824786fa6afc1ace19b3088%22&size=1024" data-image-width="1023" data-image-height="1325"><span class="background-image-placeholder-link" data-href="images/d38e5c0d-f535-4188-8327-a2b325975438.png?asset_id=c3005881-74ae-4848-b3eb-e9cee9c1ea4b&img_etag=%2292f8e0b32824786fa6afc1ace19b3088%22&size=512"></span></a>
+                          </div>
+                          <div class="photo-container tile">
+                            <a aria-hidden="true" class="photo-image" href="images/9ed150c0-3047-49cd-bc44-1608d6e751ca.png?asset_id=b832cd26-d50b-4855-a114-dbad4cabbb9e&img_etag=%222c93a9d39ff57c8157719ad140b443d7%22&size=1024" data-src="images/9ed150c0-3047-49cd-bc44-1608d6e751ca.png?asset_id=b832cd26-d50b-4855-a114-dbad4cabbb9e&img_etag=%222c93a9d39ff57c8157719ad140b443d7%22&size=1024" data-image-width="1023" data-image-height="1325"><span class="background-image-placeholder-link" data-href="images/9ed150c0-3047-49cd-bc44-1608d6e751ca.png?asset_id=b832cd26-d50b-4855-a114-dbad4cabbb9e&img_etag=%222c93a9d39ff57c8157719ad140b443d7%22&size=512"></span></a>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="photo-group-container">
+                      <div class="photo-group t2-layout-pp-1">
+                          <div class="photo-container tile">
+                            <a aria-hidden="true" class="photo-image" href="images/4c40d7c7-de9d-469a-b983-aacf65661450.png?asset_id=585b2e59-60c2-4f65-816d-a30a07c0cda8&img_etag=%221511f9b752e97d23018e20d953d179ad%22&size=1024" data-src="images/4c40d7c7-de9d-469a-b983-aacf65661450.png?asset_id=585b2e59-60c2-4f65-816d-a30a07c0cda8&img_etag=%221511f9b752e97d23018e20d953d179ad%22&size=1024" data-image-width="1023" data-image-height="1325"><span class="background-image-placeholder-link" data-href="images/4c40d7c7-de9d-469a-b983-aacf65661450.png?asset_id=585b2e59-60c2-4f65-816d-a30a07c0cda8&img_etag=%221511f9b752e97d23018e20d953d179ad%22&size=512"></span></a>
+                          </div>
+                          <div class="photo-container tile">
+                            <a aria-hidden="true" class="photo-image" href="images/2219308a-2d16-49f7-8eda-529c9716c75f.png?asset_id=ca324b56-8be7-4f66-b54c-57690f77ed5f&img_etag=%2220f112ca268c25c7132a6410c1a2175f%22&size=1024" data-src="images/2219308a-2d16-49f7-8eda-529c9716c75f.png?asset_id=ca324b56-8be7-4f66-b54c-57690f77ed5f&img_etag=%2220f112ca268c25c7132a6410c1a2175f%22&size=1024" data-image-width="1023" data-image-height="1325"><span class="background-image-placeholder-link" data-href="images/2219308a-2d16-49f7-8eda-529c9716c75f.png?asset_id=ca324b56-8be7-4f66-b54c-57690f77ed5f&img_etag=%2220f112ca268c25c7132a6410c1a2175f%22&size=512"></span></a>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section single-column-section" data-section-behavior="vintage-single-column" data-layer="0" data-layer-name="over">
+        <div class="section-view">
+          <div class="section-content">
+            <div class="section-content-view">
+              <div class="content-container">
+                            <h3 class=" " >Empathy Mapping Canvas</h3>
+                    </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section photo-grid-section" data-section-behavior="vintage-photo-grid" data-layer-name="over">
+        <div class="section-view">
+          <div class="section-content">
+            <div class="section-content-view">
+              <div class="content-container">
+                <div class="photo-grid">
+                    <div class="photo-group-container">
+                      <div class="photo-group t3-layout-lll-1">
+                          <div class="photo-container tile">
+                            <a aria-hidden="true" class="photo-image" href="images/1590d6a5-e5e1-4b6d-bf71-ac8b0a6bfb52.png?asset_id=26f34935-4267-4534-8140-bae98ecaf551&img_etag=%22b1b96da22aa0e2bf5dce71f8d4dab400%22&size=1024" data-src="images/1590d6a5-e5e1-4b6d-bf71-ac8b0a6bfb52.png?asset_id=26f34935-4267-4534-8140-bae98ecaf551&img_etag=%22b1b96da22aa0e2bf5dce71f8d4dab400%22&size=1024" data-image-width="1024" data-image-height="662"><span class="background-image-placeholder-link" data-href="images/1590d6a5-e5e1-4b6d-bf71-ac8b0a6bfb52.png?asset_id=26f34935-4267-4534-8140-bae98ecaf551&img_etag=%22b1b96da22aa0e2bf5dce71f8d4dab400%22&size=512"></span></a>
+                          </div>
+                          <div class="photo-container tile">
+                            <a aria-hidden="true" class="photo-image" href="images/d813a3e0-74c4-47cd-acc8-296c66bc808d.png?asset_id=eba2150e-9277-4495-94d2-04bedc2816bc&img_etag=%225d1e8f2c4e9fb02fa1201dfc87315217%22&size=1024" data-src="images/d813a3e0-74c4-47cd-acc8-296c66bc808d.png?asset_id=eba2150e-9277-4495-94d2-04bedc2816bc&img_etag=%225d1e8f2c4e9fb02fa1201dfc87315217%22&size=1024" data-image-width="1024" data-image-height="662"><span class="background-image-placeholder-link" data-href="images/d813a3e0-74c4-47cd-acc8-296c66bc808d.png?asset_id=eba2150e-9277-4495-94d2-04bedc2816bc&img_etag=%225d1e8f2c4e9fb02fa1201dfc87315217%22&size=512"></span></a>
+                          </div>
+                          <div class="photo-container tile">
+                            <a aria-hidden="true" class="photo-image" href="images/bde97d33-1a98-4e55-a76a-458c58a93ee2.png?asset_id=144b7eec-d0b3-4b96-a367-814dbade24a9&img_etag=%227e66ea72678bea9f6f0e5b2af82f9d4c%22&size=1024" data-src="images/bde97d33-1a98-4e55-a76a-458c58a93ee2.png?asset_id=144b7eec-d0b3-4b96-a367-814dbade24a9&img_etag=%227e66ea72678bea9f6f0e5b2af82f9d4c%22&size=1024" data-image-width="1024" data-image-height="662"><span class="background-image-placeholder-link" data-href="images/bde97d33-1a98-4e55-a76a-458c58a93ee2.png?asset_id=144b7eec-d0b3-4b96-a367-814dbade24a9&img_etag=%227e66ea72678bea9f6f0e5b2af82f9d4c%22&size=512"></span></a>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="photo-group-container">
+                      <div class="photo-group t3-layout-lll-1">
+                          <div class="photo-container tile">
+                            <a aria-hidden="true" class="photo-image" href="images/3b22a78f-e520-405e-8dc6-f6e5af2d817d.png?asset_id=1fcd5248-1d23-480e-b8f4-593e5da4e78a&img_etag=%229d289d4bbe5e4f62aab5365faa87e413%22&size=1024" data-src="images/3b22a78f-e520-405e-8dc6-f6e5af2d817d.png?asset_id=1fcd5248-1d23-480e-b8f4-593e5da4e78a&img_etag=%229d289d4bbe5e4f62aab5365faa87e413%22&size=1024" data-image-width="1024" data-image-height="662"><span class="background-image-placeholder-link" data-href="images/3b22a78f-e520-405e-8dc6-f6e5af2d817d.png?asset_id=1fcd5248-1d23-480e-b8f4-593e5da4e78a&img_etag=%229d289d4bbe5e4f62aab5365faa87e413%22&size=512"></span></a>
+                          </div>
+                          <div class="photo-container tile">
+                            <a aria-hidden="true" class="photo-image" href="images/755f5e85-0eb5-43b5-b229-63585a419037.png?asset_id=67b0500c-b719-4172-acb7-3997fddff3de&img_etag=%220997362abcde170805c2ba4a7c3927fd%22&size=1024" data-src="images/755f5e85-0eb5-43b5-b229-63585a419037.png?asset_id=67b0500c-b719-4172-acb7-3997fddff3de&img_etag=%220997362abcde170805c2ba4a7c3927fd%22&size=1024" data-image-width="1024" data-image-height="662"><span class="background-image-placeholder-link" data-href="images/755f5e85-0eb5-43b5-b229-63585a419037.png?asset_id=67b0500c-b719-4172-acb7-3997fddff3de&img_etag=%220997362abcde170805c2ba4a7c3927fd%22&size=512"></span></a>
+                          </div>
+                          <div class="photo-container tile">
+                            <a aria-hidden="true" class="photo-image" href="images/66b5f0c7-06b3-4976-b0d9-af1e8fb7e255.png?asset_id=d612a924-09b7-40d4-b807-2f1c5d5e6cf5&img_etag=%2275698eaed7d55f811eb0711062a51633%22&size=1024" data-src="images/66b5f0c7-06b3-4976-b0d9-af1e8fb7e255.png?asset_id=d612a924-09b7-40d4-b807-2f1c5d5e6cf5&img_etag=%2275698eaed7d55f811eb0711062a51633%22&size=1024" data-image-width="1024" data-image-height="662"><span class="background-image-placeholder-link" data-href="images/66b5f0c7-06b3-4976-b0d9-af1e8fb7e255.png?asset_id=d612a924-09b7-40d4-b807-2f1c5d5e6cf5&img_etag=%2275698eaed7d55f811eb0711062a51633%22&size=512"></span></a>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="photo-group-container">
+                      <div class="photo-group t3-layout-lll-1">
+                          <div class="photo-container tile">
+                            <a aria-hidden="true" class="photo-image" href="images/704ae930-12f6-48c8-86cc-8ddcc66a6258.png?asset_id=58edba47-9cbf-49aa-8d89-35a0ce67a1e3&img_etag=%22ba63ec593815b166e41daacf5efcb842%22&size=1024" data-src="images/704ae930-12f6-48c8-86cc-8ddcc66a6258.png?asset_id=58edba47-9cbf-49aa-8d89-35a0ce67a1e3&img_etag=%22ba63ec593815b166e41daacf5efcb842%22&size=1024" data-image-width="1024" data-image-height="662"><span class="background-image-placeholder-link" data-href="images/704ae930-12f6-48c8-86cc-8ddcc66a6258.png?asset_id=58edba47-9cbf-49aa-8d89-35a0ce67a1e3&img_etag=%22ba63ec593815b166e41daacf5efcb842%22&size=512"></span></a>
+                          </div>
+                          <div class="photo-container tile">
+                            <a aria-hidden="true" class="photo-image" href="images/2b70473a-4c3b-4422-8253-963d0e7dc5f9.png?asset_id=4aa1dd03-40b1-42c2-a44b-28d552bc5717&img_etag=%2201c7afb64c3ddac4fa1392206a820f04%22&size=1024" data-src="images/2b70473a-4c3b-4422-8253-963d0e7dc5f9.png?asset_id=4aa1dd03-40b1-42c2-a44b-28d552bc5717&img_etag=%2201c7afb64c3ddac4fa1392206a820f04%22&size=1024" data-image-width="1024" data-image-height="662"><span class="background-image-placeholder-link" data-href="images/2b70473a-4c3b-4422-8253-963d0e7dc5f9.png?asset_id=4aa1dd03-40b1-42c2-a44b-28d552bc5717&img_etag=%2201c7afb64c3ddac4fa1392206a820f04%22&size=512"></span></a>
+                          </div>
+                          <div class="photo-container tile">
+                            <a aria-hidden="true" class="photo-image" href="images/3dfcde78-51be-416c-9380-6eb6ec387887.png?asset_id=20c73af1-f649-4174-a91b-5a779df68e1f&img_etag=%22c1c16a4d40e636650759df832ee882ff%22&size=1024" data-src="images/3dfcde78-51be-416c-9380-6eb6ec387887.png?asset_id=20c73af1-f649-4174-a91b-5a779df68e1f&img_etag=%22c1c16a4d40e636650759df832ee882ff%22&size=1024" data-image-width="1024" data-image-height="662"><span class="background-image-placeholder-link" data-href="images/3dfcde78-51be-416c-9380-6eb6ec387887.png?asset_id=20c73af1-f649-4174-a91b-5a779df68e1f&img_etag=%22c1c16a4d40e636650759df832ee882ff%22&size=512"></span></a>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="photo-group-container">
+                      <div class="photo-group t2-layout-ll-1">
+                          <div class="photo-container tile">
+                            <a aria-hidden="true" class="photo-image" href="images/694ef1c2-0655-421e-acaa-89de96fea16b.png?asset_id=0206cf3e-2216-43bd-8008-61b3c5ddf303&img_etag=%224e2f5972350806ed2eb8528ea4f7faf1%22&size=1024" data-src="images/694ef1c2-0655-421e-acaa-89de96fea16b.png?asset_id=0206cf3e-2216-43bd-8008-61b3c5ddf303&img_etag=%224e2f5972350806ed2eb8528ea4f7faf1%22&size=1024" data-image-width="1024" data-image-height="662"><span class="background-image-placeholder-link" data-href="images/694ef1c2-0655-421e-acaa-89de96fea16b.png?asset_id=0206cf3e-2216-43bd-8008-61b3c5ddf303&img_etag=%224e2f5972350806ed2eb8528ea4f7faf1%22&size=512"></span></a>
+                          </div>
+                          <div class="photo-container tile">
+                            <a aria-hidden="true" class="photo-image" href="images/d8e945b6-c57d-4818-bce1-253465aa05cd.png?asset_id=0ae0195b-b3d0-4a47-a696-0e379a63407c&img_etag=%2298db747d30c9e489d5504afc794047d7%22&size=1024" data-src="images/d8e945b6-c57d-4818-bce1-253465aa05cd.png?asset_id=0ae0195b-b3d0-4a47-a696-0e379a63407c&img_etag=%2298db747d30c9e489d5504afc794047d7%22&size=1024" data-image-width="1024" data-image-height="662"><span class="background-image-placeholder-link" data-href="images/d8e945b6-c57d-4818-bce1-253465aa05cd.png?asset_id=0ae0195b-b3d0-4a47-a696-0e379a63407c&img_etag=%2298db747d30c9e489d5504afc794047d7%22&size=512"></span></a>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section single-column-section  large-content-spacing-bottom" data-section-behavior="vintage-single-column" data-layer="0" data-layer-name="over">
+        <div class="section-view">
+          <div class="section-content">
+            <div class="section-content-view">
+              <div class="content-container">
+                            <h3 class=" " >Conclusion</h3>
+                                  <p class=" " >Here with the empathy maps, I found some more unexpected results in this. A lot of people seemed to have a lot more interest in golf than I thought they would have. Like my sister was one of these and she hasn&#39;t ever had an interest until recently. Other where I thought they would be more for the app and less about golf were surprisingly the opposite of what I originally had thought.</p>
+                    </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section window-section height-50 caption-left" data-section-behavior="vintage-window" data-layer="0" data-layer-name="over">
+          <figure role="group" aria-label="Stage 2: Define-State Your Users&#39; Needs ad Problems" class="section-view">
+            <div class="window section-background">
+                <div class="section-background-image" style="background-position: 50% 50%;"><a class="background-image-placeholder-link" href="images/d40ea3fa-a098-465a-939d-b2fed236ccf8.jpg?asset_id=0cf4a939-1320-4724-9da1-8d670bdccaaf&img_etag=%2250f203f06da82d6f2c819dfebd68e64c%22&size=1024" data-image-width="2356" data-image-height="1571"></a></div>
+            </div>
+            <figcaption class="pull-quote">
+              <div class="pull-quote-view">
+                <div class="content-container">Stage 2: Define-State Your Users&#39; Needs ad Problems</div>
+              </div>
+            </figcaption>
+          </figure>
+      </div>
+      <div class="section single-column-section  large-content-spacing-top large-content-spacing-bottom" data-section-behavior="vintage-single-column" data-layer="0" data-layer-name="over">
+        <div class="section-view">
+          <div class="section-content">
+            <div class="section-content-view">
+              <div class="content-container">
+                            <h3 class=" " >Personas</h3>
+                                  <p class=" " >For this, I decided to use Austin for the persona. This is due to his relationship with the golf course and not being in a position where his action will affect the public view of the golf course. With that in mind, I also wanted to pick him more for his experience in what he has participated in, high school golf, and league. Also with his age and what he has been through technology has been more a part of his life than most generations.</p>
+                              <div class="image">
+                    <div class="image-wrapper">
+                      <a href="images/c78b2dd5-43f6-4dd6-bc81-e638945ff408.png?asset_id=3c19a94a-336b-4191-b63b-ecf383712404&amp;img_etag=%22793b0068f5ee31df0acc90a6d6fcb72b%22&amp;size=1024" aria-hidden="true" class="image-viewer-link" target="_blank" rel="nofollow noreferrer"><span class="image-placeholder-link" data-href="images/c78b2dd5-43f6-4dd6-bc81-e638945ff408.png?asset_id=3c19a94a-336b-4191-b63b-ecf383712404&amp;img_etag=%22793b0068f5ee31df0acc90a6d6fcb72b%22&amp;size=1024" style="width: 1427px; padding-top: 70.70777855641205%" data-image-width="1427" data-image-height="1009"></span></a>
+                    </div>
+                  </div>
+                                  <h3 class=" " >Business Model Canvas</h3>
+                                  <p class=" " >With the business model, I wanted to more look at what are my core values toward the app or what I want to gain. With most of the sections in this, I want to this focus on the game specifically. For that reason, I want to make golf easier to play so I have to focus on where people will need the game to be easier. This would result in the competition so that is where the key partners come in. With this, I can focus on groups that will be affected by the app in general which would be golfers. The one thing that is a little more difficult than I specifically wanted for the app was a nondisrupted revenue stream. When you have to pay a subscription most people will not use the app and the alternative is to have ads which even get very irritating. My vision for this is to do something similar in that movies do add sponsors or adds hidden inside the app. All in all the business model is very straightforward without business knowledge.</p>
+                              <div class="image">
+                    <div class="image-wrapper">
+                      <a href="images/9f3e7d73-a577-4dd0-9efe-63ec4d8e8fb7.png?asset_id=9b2a7932-e127-47bc-aa91-712ddd7a09fb&amp;img_etag=%225ebcf54dc83e245aa63af4b0cc546dc6%22&amp;size=1024" aria-hidden="true" class="image-viewer-link" target="_blank" rel="nofollow noreferrer"><span class="image-placeholder-link" data-href="images/9f3e7d73-a577-4dd0-9efe-63ec4d8e8fb7.png?asset_id=9b2a7932-e127-47bc-aa91-712ddd7a09fb&amp;img_etag=%225ebcf54dc83e245aa63af4b0cc546dc6%22&amp;size=1024" style="width: 2420px; padding-top: 77.27272727272727%" data-image-width="2420" data-image-height="1870"></span></a>
+                    </div>
+                  </div>
+                                  <h3 class=" " >Conclusion</h3>
+                                  <p class=" " >With stage two I found a lot of specific details that I overlooked. One I honestly forgot to calculate into the app was the cost. It is a little embarrassing but I guess that is more my personality of helping people first rather than thinking of myself. Another part that I discovered is my partners or target group. This wasn&#39;t too much of a surprise but it was good to clarify how many I have and what they are. To focus on the persona I learned more about what middle-aged people would feel about this. One thing that I learned was the following trends which I don&#39;t like doing. This was very interesting since golf is a very laid-back sport. One thing I did clarify with the business model is revenue is the revenue stream. With this I personally am against subscriptions and ads that break apart the user experience. After giving it some thought I want to focus on something similar to ads in movies and that is where I want to focus on income.</p>
+                    </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section window-section height-50 caption-left" data-section-behavior="vintage-window" data-layer="0" data-layer-name="over">
+          <figure role="group" aria-label="Stage 3: Ideate—Challenge Assumptions and Create Ideas" class="section-view">
+            <div class="window section-background">
+                <div class="section-background-image" style="background-position: 50% 50%;"><a class="background-image-placeholder-link" href="images/5c8bf886-4fed-4f19-bfa6-f3d8f230702c.jpg?asset_id=6cf9239b-2861-4823-af7e-6658c5fac7fc&img_etag=%22dc90d911ae9cc320cc1196466d6e2a64%22&size=1024" data-image-width="2560" data-image-height="1070"></a></div>
+            </div>
+            <figcaption class="pull-quote">
+              <div class="pull-quote-view">
+                <div class="content-container">Stage 3: Ideate—Challenge Assumptions and Create Ideas</div>
+              </div>
+            </figcaption>
+          </figure>
+      </div>
+      <div class="section single-column-section  large-content-spacing-top large-content-spacing-bottom" data-section-behavior="vintage-single-column" data-layer="0" data-layer-name="over">
+        <div class="section-view">
+          <div class="section-content">
+            <div class="section-content-view">
+              <div class="content-container">
+                            <p class=" " >The way I liked to generate ideas is to have a starting point. Similar to how mind mapping starts. At that point, I try to write down as many ideas that can connect to the one branching idea. A lot of ideas that I tried writing down were ones that were already there but I still even when off of those. One very unique one that I had put down was a golden club. This is more of an old fashion thing that golf courses, or more particularly, my golf course used to do. The rule was if you scored a Hole and One on hole number 5 Dirkes, a company and Fairfield would buy you a golden putter. The only reason I know about this is that my grandpa, Co-owner of Dirkes agreed to do this when he sponsored the hole. Almost everyone forgot about it till my younger brother ended up getting a hole and one on that hole. What came first from this was having messages or confetti similar to virtual minigolf games. In short, where one idea lies another idea can grow off of that. Also, the way my mind generates ideas can be a little different since a am a bit dyslexic.</p>
+                                  <h3 class=" " >Mind Maping</h3>
+                    </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section full-width-section" data-section-behavior="vintage-full-width-photo" data-layer="0" data-layer-name="over">
+        <div class="section-view">
+          <div class="section-content">
+            <div class="section-content-view">
+              <div class="content-container">
+                        <div class="image">
+                    <div class="image-wrapper">
+                      <a href="images/f801010b-3511-44db-a7e8-e7286e43c208.png?asset_id=9e7e083e-e9be-418e-96a6-78b3b8e09011&amp;img_etag=%22b95c3dea718a277bcaaaf6cfa7cb590e%22&amp;size=1024" aria-hidden="true" class="image-viewer-link" target="_blank" rel="nofollow noreferrer"><span class="image-placeholder-link" data-href="images/f801010b-3511-44db-a7e8-e7286e43c208.png?asset_id=9e7e083e-e9be-418e-96a6-78b3b8e09011&amp;img_etag=%22b95c3dea718a277bcaaaf6cfa7cb590e%22&amp;size=1024" style="width: 1635px; padding-top: 46.666666666666664%" data-image-width="1635" data-image-height="763"></span></a>
+                    </div>
+                  </div>
+                    </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section single-column-section  large-content-spacing-top large-content-spacing-bottom" data-section-behavior="vintage-single-column" data-layer="0" data-layer-name="over">
+        <div class="section-view">
+          <div class="section-content">
+            <div class="section-content-view">
+              <div class="content-container">
+                            <h3 class=" " >Conclusion</h3>
+                                  <p class=" " >My findings with mind mapping are ideas can make new completely different ideas. The one part that surprised me the most is slowly trickling into an old fashion idea just by going off of newer or more present-day ideas. I went from virtual golf to an old fashion contest that went away years ago. It even worked very well and could potentially be implemented into this app if I choose it to. Even besides that I ended up adding more ideas because of this and it made a narrow mind of thinking able to wander off of ideas.</p>
+                    </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section window-section height-50 caption-left" data-section-behavior="vintage-window" data-layer="0" data-layer-name="over">
+          <figure role="group" aria-label="Stage 4: Prototype—Create Solutions" class="section-view">
+            <div class="window section-background">
+                <div class="section-background-image" style="background-position: 50% 50%;"><a class="background-image-placeholder-link" href="images/dbfd392b-aace-4272-a12d-e3bf9701e4e0.jpg?asset_id=83d7464b-4bdf-44a4-99ab-c786ccf8aca6&img_etag=%22843fa88611ee4243cfa67b8f823422f3%22&size=1024" data-image-width="2560" data-image-height="1440"></a></div>
+            </div>
+            <figcaption class="pull-quote">
+              <div class="pull-quote-view">
+                <div class="content-container">Stage 4: Prototype—Create Solutions</div>
+              </div>
+            </figcaption>
+          </figure>
+      </div>
+      <div class="section single-column-section  large-content-spacing-top large-content-spacing-bottom" data-section-behavior="vintage-single-column" data-layer="0" data-layer-name="over">
+        <div class="section-view">
+          <div class="section-content">
+            <div class="section-content-view">
+              <div class="content-container">
+                            <h3 class=" " >Low-Fidelity</h3>
+                              <div class="image">
+                    <div class="image-wrapper">
+                      <a href="images/947ac5e2-5f8a-4734-94ff-1b457986f767.png?asset_id=996955c0-6e69-4621-92fb-fdf0c7c12af6&amp;img_etag=%22d021e27667640cba61358f7dd9a15e73%22&amp;size=1024" aria-hidden="true" class="image-viewer-link" target="_blank" rel="nofollow noreferrer"><span class="image-placeholder-link" data-href="images/947ac5e2-5f8a-4734-94ff-1b457986f767.png?asset_id=996955c0-6e69-4621-92fb-fdf0c7c12af6&amp;img_etag=%22d021e27667640cba61358f7dd9a15e73%22&amp;size=1024" style="width: 2550px; padding-top: 129.41176470588235%" data-image-width="2550" data-image-height="3300"></span></a>
+                    </div>
+                  </div>
+                                  <h3 class=" " >Hig-Fidelity</h3>
+                    </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section full-width-section" data-section-behavior="vintage-full-width-photo" data-layer="0" data-layer-name="over">
+        <div class="section-view">
+          <div class="section-content">
+            <div class="section-content-view">
+              <div class="content-container">
+                        <figure class="image" role="group" aria-label="Interactable Link">
+                    <div class="image-wrapper">
+                      <a href="images/f5d3fb03-2a2c-4ce8-85b8-8ff9aefc711a.png?asset_id=541a27a5-4b25-46cd-8d9d-57d35f186226&amp;img_etag=%22bbedadb92fe982fededd648742606616%22&amp;size=1024" aria-hidden="true" class="image-viewer-link" target="_blank" rel="nofollow noreferrer"><span class="image-placeholder-link" data-href="images/f5d3fb03-2a2c-4ce8-85b8-8ff9aefc711a.png?asset_id=541a27a5-4b25-46cd-8d9d-57d35f186226&amp;img_etag=%22bbedadb92fe982fededd648742606616%22&amp;size=1024" style="width: 1082px; padding-top: 36.69131238447319%" data-image-width="1082" data-image-height="397"></span></a>
+                    </div>
+                    <figcaption class="caption "><a href="https://xd.adobe.com/view/f80292db-30b3-482c-bad8-3d3252d19257-ad51/" target="_blank" rel="nofollow noreferrer">Interactable Link</a></figcaption>
+                  </figure>
+                    </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section single-column-section  large-content-spacing-top large-content-spacing-bottom" data-section-behavior="vintage-single-column" data-layer="0" data-layer-name="over">
+        <div class="section-view">
+          <div class="section-content">
+            <div class="section-content-view">
+              <div class="content-container">
+                            <h3 class=" " >Usability Heuristics</h3>
+                                  <p class=" " ><b>1: VISIBILITY OF SYSTEM STATUS.</b></p>
+                                  <p class=" " >This is done through adequately labeled pages for the user to understand what is happening. Most of the labeling is done for people with golf experience in the understanding of the game. Other symbols are included to be simplistic and easy to understand.</p>
+                                  <p class=" " ><b>2: MATCH BETWEEN SYSTEM AND THE REAL WORLD.</b></p>
+                                  <p class=" " >Most of the words used are golf terms where the user will know what is meant if you know the games. Other uses are pictures that revolve around familiar app icons or similar that can be directed toward the functionality.</p>
+                                  <p class=" " ><b>3: USER CONTROL AND FREEDOM.</b></p>
+                                  <p class=" " >This is done by keeping the bar at the bottom of the app constantly there, with the exception of the login screen. This makes it so users can return to any part of the app they left off. There is also the added red x button that I made for part of the app as a more formal approach that people would recognize more and looks better than the bar for exiting.</p>
+                                  <p class=" " ><b>4: CONSISTENCY AND STANDARDS.</b></p>
+                                  <p class=" " >This is one of the reasons why I have the bar at the bottom of the page rather than flipping through different pages in the app. This makes it more consistent and easier to use than flipping from something different.</p>
+                                  <p class=" " ><b>5: ERROR PREVENTION.</b></p>
+                                  <p class=" " >This one was a little easier to prevent since a lot of the functionality of the app involves coding which is the design portion that we are still working on and won&#39;t go past. To prevent most errors I tried to make sure everything is linked correctly. I also added some red X on some to make it easier to prevent errors for transitions.</p>
+                                  <p class=" " ><b>6: RECOGNITION RATHER THAN RECALL.</b></p>
+                                  <p class=" " >With this, I tried to add more icons that people were more likely to recognize. Like a house for a home page, a person for a profile, and a gear for settings. Even a pencil for entering your score. All of these are common icons that people are more likely to recognize rather than remember.</p>
+                                  <p class=" " ><b>7: FLEXIBILITY AND EFFICIENCY OF USE.</b></p>
+                                  <p class=" " >The red X is a great example of what could be done or you can just go to the bottom when you are done reading or entering information. Either way, it can be used and still come with the same outcome and it would be up to the user.</p>
+                                  <p class=" " ><b>8: AESTHETIC AND MINIMALIST</b></p>
+                                  <p class=" " >With this, I tried to take out as much information overload as I could. Like adding multiple people to a scorecard. I personally have tried this with other apps and it gets a bit confusing. With aesthetics, I tried to keep a constant theme like using the bar at the bottom of the page. I even matched the app to the logo that I built specifically for it and kept the color scheme to use throughout the app.</p>
+                                  <p class=" " ><b>9: HELP USERS RECOGNIZE, DIAGNOSE, AND RECOVER FROM ERRORS</b></p>
+                                  <p class=" " >Most of the app is pretty simplistic and this would be difficult till some coding can be done to make the app more usable. Since it is simple it would be easier to see when something is off or not working properly. The best part to help with this issue would be going to help in setting up every other app or use the contact in the app store. Any errors should not affect users to the degree of not being able to golf.</p>
+                                  <p class=" " ><b>10: HELP AND DOCUMENTATION</b></p>
+                                  <p class=" " >This is located in the setting like most apps and can be easily found in the settings. This is included for common issues that would appear after the use of the app by users, or issues that come up in testing.</p>
+                                  <h3 class=" " >UX Laws</h3>
+                                  <p class=" " ><b>Hick&#39;s Law</b></p>
+                                  <p class=" " >I tried to use Hick&#39;s Law when designing my app. I tried to take away as many complicated steps as I could. This is without oversimplifying where I could only have one decision per page which would make it more annoying to use. Also, I tried to set it up in a way where you could gradually introduce yourself to features and not get forced into things like most applications do to try and make sure you understand that app completely which can be exciting.</p>
+                                  <p class=" " ><b>Law of Common Region</b></p>
+                                  <p class=" " >With this, I tried to make a basic area defined by a box that does not disappear. This is the bar at the bottom of the screen. This makes common ground for the navigation adding structure to the app where a user can be comfortable. I have seen apps that switch bars or completely get rid of a bar during a function. This panics the user and oftentimes confuses them.</p>
+                                  <p class=" " ><b>Miller&#39;s Law</b></p>
+                                  <p class=" " >As stated an average person can keep 5-9 items in their memory. That is why I tried to add 5 distinct categories to the bar. With this, I can organize different functionalities into this. Doing the app this way makes the app easier to use and memorize. Also by making more memorable icons, it also works off of prior knowledge and makes it easier to understand in the long run.</p>
+                    </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section author-section" data-section-behavior="vintage-author" data-layer-name="over">
+        <div class="section-view">
+          <div class="section-content">
+            <div class="section-content-view">
+              <div class="content-container">
+                <div class="author-appreciation-container">
+                  <a href="https://express.adobe.com/page/bwoBCu9alP2Bn" class="button appreciate-button">Appreciate</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section credits-section" data-section-behavior="vintage-credits" data-layer="0" data-layer-name="over">
+        <div class="section-view">
+          <div class="section-content">
+            <div class="section-content-view">
+              <div class="content-container">
+                <div class="photo-credits">
+                  <p class="credits-label">Credits:</p>
+                  <p>Created with images by lovelyday12 - &quot;golf player putting golf ball into hole&quot; • Gajus - &quot;We understand your needs sign&quot; • dizain - &quot;Problem solving aid word cloud collage, business concept background&quot; • A Stockphoto - &quot;Great ideas concept with paperclip,thinking,creativity,light bulb on blue background,new ideas concept.&quot; • Wanisa - &quot;Website Creative planning application developer draft sketch drawing template layout prototype framework wireframe design studio.&quot;</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--BUMPER-SECTION-TOP-LEVEL-START-->
+      <div class="section bumper-section default-bumper-section" data-layer-name="over">
+          <div class="section-view">
+              <!--FOOTER-START-->
+              <nav class="footer" aria-label="Adobe links">
+                  <a class="tos" target="_blank" href="http://www.adobe.com/legal/terms.html" rel="nofollow">Terms of Service</a>
+                  <a class="privacy" target="_blank" href="http://www.adobe.com/go/privacy" rel="nofollow">Privacy Policy</a>
+                  <a class="js-report-abuse" href="#" target="_blank" rel="nofollow">Report Abuse</a>
+              </nav>
+              <!--FOOTER-END-->
+          </div>
+      </div>
+      <!--BUMPER-SECTION-TOP-LEVEL-END-->
+</div>
+</div>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="publication-viewer-next-link"></a> <a href="#" class="publication-viewer-previous-link"></a>
+    </div>
+  </div>
+  <!-- javascripts go here -->
+    <script type="text/javascript">
+      window.useNewBumper = true;
+        window.brandType = 'default';
+    </script>
+
+    <script type="text/javascript" src="https://page.adobespark-assets.com/runtime/1.23/runtime-prod.gz.js" charset="utf-8"></script>
+  <!--BEGIN-BUMPER-BEHAVIORS-->
+  <!--END-BUMPER-BEHAVIORS-->
+</body>
+</html>
