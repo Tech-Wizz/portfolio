@@ -1,0 +1,51 @@
+/* Define the grid container */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    grid-template-rows: repeat(2, 1fr); /* 2 rows */
+    gap: 20px; /* Gap between grid items */
+    padding: 20px; /* Padding around the grid */
+}
+
+/* Define styles for grid items */
+.grid-item {
+    display: flex; /* Use flexbox for vertical alignment */
+    flex-direction: column; /* Stack child elements vertically */
+    justify-content: space-between; /* Align items with space in between (push link to the bottom) */
+    background-color: #f1f1f1; /* Background color for each grid item */
+    padding: 20px; /* Padding inside each grid item */
+    border: 1px solid #ddd; /* Border around each grid item */
+    text-align: center; /* Center the content horizontally */
+}
+
+/* Style the images */
+.grid-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style the titles */
+.grid-item h2 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+/* Style the descriptions */
+.grid-item p {
+    margin-top: 10px;
+}
+
+/* Style the links */
+.grid-item a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+/* Add hover effect to links */
+.grid-item a:hover {
+    text-decoration: underline;
+}
+
+
+

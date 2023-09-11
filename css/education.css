@@ -1,0 +1,38 @@
+
+  
+  h1 {
+    color: #333;
+    font-family: Calibri, sans-serif; /* Set the font-family to Calibri and provide a fallback font if Calibri is not available */
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    font-family: Calibri, sans-serif; /* Set the font-family to Calibri and provide a fallback font if Calibri is not available */
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .class-description {
+    display: none;
+    margin-top: 10px;
+  }
+  
+  .class-description p {
+    margin: 0;
+    font-family: Calibri, sans-serif; /* Set the font-family to Calibri and provide a fallback font if Calibri is not available */
+
+  }
+  
+  .class-description.show {
+    display: block;
+  }
+  
+  .class-button {
+    margin-top: 10px;
+  }

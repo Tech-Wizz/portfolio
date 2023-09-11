@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../js/global.js"></script>
+    <link rel="stylesheet" href="../css/images.css">
+
+</head>
+<body>
+    <!-- Header -->
+    <div id="header-placeholder"></div>
+
+    <!-- Middle Section with Dark/Light Mode Toggle -->
+    <main class="content">
+        <div class="image-container">
+            <img src="../\images\projects\tango\Display.png" alt="Golf App Display">
+            <div class="text-overlay">
+                <h1>Tango Bot</h1>
+            </div>
+        </div>
+
+        <h1>Overview</h1>
+        <h2>Description</h2>
+        <p>For this project in the Robotics class at Montana State University, 
+            we wanted to explore how robots worked and what we can do to improve them.</p>
+    
+        <h2>Members</h2>
+        <p>Ronnel Walton: Works on Mechanical and Electrical issues</p>
+        <p>Zach Wadhams: Back End</p>
+        <p>Kruize Christensen: Front End and Design</p>
+    
+        <h1>Moving</h1>
+        <p>Our first task was to make the robot move. We set this up with a 
+            series of commands attached to a keyboard. This makes it so we can 
+            always go back to test if we have a mechanical failure.</p>
+        
+        <h2>Commands</h2>
+        <p>Move Forward</p>
+        <p>Move Backward</p>
+        <p>Turn Right</p>
+        <p>Turn Left</p>
+        <p>Twist Left</p>
+        <p>Twist Right</p>
+        <p>Look Up</p>
+        <p>Look Down</p>
+        <p>Look Right</p>
+        <p>Look Left</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/_3LObbEcORI" frameborder="0" allowfullscreen></iframe>
+
+        <h1>Talking and Listening</h1>
+        <p>Our next task was to make the robot respond to voice commands.</p>
+        <h2>Talking</h2>
+        <p>First, we had to get the robot to speak. This part was not very hard since google already had a library. I originally planned to make a deep fake of our professor's voice to use but that required more rescores and experience than we were given.</p>
+        <h2>Listening</h2>
+        <p>The second part was making it read our voices. This part became a little tricky because one of our members had an accent. It was still a little buggy with the rest of us but it was harder for him to use the robot and test.</p>
+        <h2>Commands</h2>
+        <p>The final part was to make the robot run commands. With this, we used the library for listening and gave it a value, a string, for when we said something into it. We used a series of IF statements and made it connect to the commands we created previously. At this point, we created a moving Alexa.</p>
+        
+        <h1>Catastrophe</h1>
+        <p>Since this was a class there are multiple groups that work on similar robots in the same room. When we were going to get ready for a graded test we noticed our charging cable was weirdly tucked inside our robot-like someone was trying to hide it. Might I add, it doesn't get in the way of our task and it is more of a hassle to hide the cable. So we tried to turn it on and nothing happens. We thought maybe the battery was dead. So we plugged it into the charger. Still, nothing happened. Then Ronnel looked at the fuse and noticed that it was blown. So we got a new one and it started to boot up. We were all relieved till it booted all the way. We noticed most of our settings were scrambled and parts of our code where deleted. At that point, we knew someone used our robot and broken it. In short, we did manage to fix the robot the best we could the hour before our assignment. It did end up having an os error caused by whoever messed with ours. In the end, we passed the assignment with all that went wrong and managed to repair everything back to the way we had it.</p>
+
+        <h1>Game</h1>
+        <p>For our final project with the Tango Bot, we got to make a dungeon themed game with the robot. The way it is set up is we have a maze that the robot can traverse. Within this maze, we have to find a key to unlock the exit. While going through you have to fight a series of monsters and only one has a key. Will you find the key or perish in the maze?</p>
+        <h2>Maze</h2>
+        <p>Here is the maze that we had to traverse. This base maze would always be the same but with a catch. Within it, the enemies, key, healing, start, and exit was all randomized. This was to make the game less likely to be too easy to predict. A feature that I added to this display was the tiles will change color based on location.</p>
+        <div class="image-container">
+            <img src="../\images\projects\tango\maze1.png" alt="Maze">
+        </div>
+        <p>Base Map</p>
+        <div class="image-container">
+            <img src="../\images\projects\tango\maze2.png" alt="Highlight Example">
+        </div>
+        <p>Highlight Example</p>
+        <h2>Enemies</h2>
+        <p>Within the maze, we had two types of enemies. If you ever had any fantasy experience you would know the hardness level of both monstrosities just by looking at them. For those who do not know the skeleton, we chose to be our hard monster and the slime as our weak monster.</p>
+        <div class="image-container">
+            <img src="../\images\projects\tango\skeleton.jpg" alt="Skeleton Chair">
+        </div>
+        <div class="image-container">
+            <img src="../\images\projects\tango\slime.jpg" alt="Slime">
+        </div>
+        <h2>Items</h2>
+        <p>We had two items like things that we could collect in our journey through the maze. First off is a health boost. This was randomly collected in one of the spaces. It replenishes your health to help prevent the player from dying. The second item that you could collect was the key and it allowed the player to finish the game once they found the door. This one was hidden in one of the enemies. You had to battle in order to find it.</p>
+        <div class="image-container">
+            <img src="../\images\projects\tango\key.png" alt="Key">
+        </div>
+        <h2>Player</h2>
+        <p>The player moves using voice commands after being prompted with options, like north, south, east, and west. When they come into contact with an enemy they will be given the option to fight or run away. Both have a chance of being attacked. While all of this is happening the robot also moves with the actions being told to it. We did have to limit movement so it didn't run over to someone and attack them. What I mean by attacking is when you are attacking an enemy the robot swings his arm in the air like he is striking an enemy down. This makes the robot look more visually appealing when playing the game. Also, it makes it so we can use the robot.</p>
+
+        <h1>Code</h1>
+        <p>All the code for the project is located in the link below to GitHub.</p>
+        <a href="https://github.com/Tech-Wizz/Embeded-System-Robotics/tree/main/TangoBot/Final">GitHub</a>
+
+        </main>
+
+    <!-- Footer -->
+    <div id="footer-placeholder"></div>
+
+</body>
+</html>

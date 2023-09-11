@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/global.js"></script>
+    <link rel="stylesheet" href="css/education.css">
+    <script src="js/button.js"></script>
+    
+
+</head>
+<body>
+    <!-- Header -->
+    <div id="header-placeholder"></div>
+
+    <!-- Middle Section-->
+    
+    <main class="content">
+        <h1>Montana State University Classes</h1>
+        <h2>Computer Science Related</h2>
+        <ul>
+            <li class="class-item">
+                <div class="class-title">Joy and Beauty of Computing</div>
+                <div id="CSCI107-description" class="class-description">
+                  <p>Examines the computing field and how it impacts the human condition. Introduces exciting ideas and influential people. Provides a gentle introduction to computational thinking using the Python programming language.</p>
+                  <p>For more information on CSCI 107, visit the <a href="http://catalog.montana.edu/coursedescriptions/csci/" target="_blank">course webpage</a>.</p>
+                </div>
+                <button class="class-button" onclick="toggleDescription('CSCI107')">Description</button>
+            </li>
+            <li class="class-item">
+                <div class="class-title">Web Design</div>
+                <div id="CS145RA-description" class="class-description">
+                  <p>Basic design principles and how these principles apply to website construction. HTML, HTML editors and Cascading Style Sheets. Laboratory projects reflect practical usage of course concepts.</p>
+                  <p>For more information on CS 145RA, visit the <a href="http://catalog.montana.edu/coursedescriptions/cs/" target="_blank">course webpage</a>.</p>
+                </div>
+                <button class="class-button" onclick="toggleDescription('CS145RA')">Description</button>
+            </li>
+            <li class="class-item">
+                <div class="class-title">Joy and Beauty of Data</div>
+                <div id="CSCI127-description" class="class-description">
+                  <p>Provides a gentle introduction to the exciting world of big data and data science. Students expand their ability to solve problems with Python by learning to deploy lists, files, dictionaries and object-oriented programming. Data science libraries are introduced that enable data to be manipulated and displayed. To succeed in this course, either basic computer literacy or CSCI 107 is recommended.</p>
+                  <p>For more information on CSCI 127, visit the <a href="http://catalog.montana.edu/coursedescriptions/csci/" target="_blank">course webpage</a>.</p>
+                </div>
+                <button class="class-button" onclick="toggleDescription('CSCI127')">Description</button>
+            </li>
+            <li class="class-item">
+                <div class="class-title">Basic Data Structures and Algorithms</div>
+                <div id="CSCI132-description" class="class-description">
+                  <p>An examination of advanced Java and basic data structures and their application in problem solving. Data structures include stacks, queues and lists. An introduction to algorithms employing the data structures to solve various problems including searching and sorting, and recursion. Understanding and using Java class libraries. The laboratory uses Java. Introduces Big-O Notation.</p>
+                  <p>For more information on CSCI 132, visit the <a href="http://catalog.montana.edu/coursedescriptions/csci/" target="_blank">course webpage</a>.</p>
+                </div>
+                <button class="class-button" onclick="toggleDescription('CSCI132')">Description</button>
+            </li>
+            <li class="class-item">
+                <div class="class-title">Data Structures and Algorithms</div>
+                <div id="CSCI232-description" class="class-description">
+                  <p>Advanced data structures and programming techniques and their application. Topics include: trees, balanced trees, graphs, dictionaries, hash tables, heaps. Examines the efficiency and correctness of algorithms. The laboratory uses Java. CSCI 246 is recommended as a prerequisite.</p>
+                  <p>For more information on CSCI 232, visit the <a href="http://catalog.montana.edu/coursedescriptions/csci/" target="_blank">course webpage</a>.</p>
+                </div>
+                <button class="class-button" onclick="toggleDescription('CSCI232')">Description</button>
+            </li>
+            <li class="class-item">
+                <div class="class-title">Discrete Structures</div>
+                <div id="CSCI246-description" class="class-description">
+                  <p>This course covers logic, discrete probability, recurrence relations, Boolean algebra, sets, relations, counting, functions, maps, Big-O notation, proof techniques including induction, and proof by contradiction.</p>
+                  <p>For more information on CSCI 246, visit the <a href="http://catalog.montana.edu/coursedescriptions/csci/" target="_blank">course webpage</a>.</p>
+                </div>
+                <button class="class-button" onclick="toggleDescription('CSCI246')">Description</button>
+            </li>
+            <li class="class-item">
+                <div class="class-title">Programming with C I</div>
+                <div id="CSCI112-description" class="class-description">
+                  <p> Programming knowledge. Introduces imperative programming and the C standard library. Course covers pointers, memory management and structures.</p>
+                  <p>For more information on CSCI 112, visit the <a href="http://catalog.montana.edu/coursedescriptions/csci/" target="_blank">course webpage</a>.</p>
+                </div>
+                <button class="class-button" onclick="toggleDescription('CSCI112')">Description</button>
+            </li>
+            <li class="class-item">
+                <div class="class-title">Social & Ethical Issues in Computer Science</div>
+                <div id="CSCI215CS-description" class="class-description">
+                  <p>Social and ethical issues as they relate to computing, including privacy, freedom of the press, lack of diversity, reliability and safety, and artificial intelligence.</p>
+                  <p>For more information on CSCI 215CS, visit the <a href="http://catalog.montana.edu/coursedescriptions/csci/" target="_blank">course webpage</a>.</p>
+                </div>
+                <button class="class-button" onclick="toggleDescription('CSCI215CS')">Description</button>
+            </li>
+            <li class="class-item">
+                <div class="class-title">Concepts/Programming Languages</div>
+                <div id="CSCI305-description" class="class-description">
+                  <p>An examination of several programming paradigms, and languages, as well as their application and underlying execution model. Paradigms examined include imperative, object-oriented, functional, logic and string based. Students will gain exposure to a variety of languages such as C, C++, Scheme, Prolog and Perl. CSCI 112 is recommended.</p>
+                  <p>For more information on CSCI 305, visit the <a href="http://catalog.montana.edu/coursedescriptions/csci/" target="_blank">course webpage</a>.</p>
+                </div>
+                <button class="class-button" onclick="toggleDescription('CSCI305')">Description</button>
+            </li>
+            <li class="class-item">
+                <div class="class-title">Software Engineering</div>
+                <div id="CSCI322-description" class="class-description">
+                  <p>Software lifecycles, Unified Modeling Language, design patterns, software engineering standards, requirements analysis, development issues, efficiency tools, verification and validation, configuration management, testing and maintenance.</p>
+                  <p>For more information on ESOF 322, visit the <a href="http://catalog.montana.edu/coursedescriptions/esof/" target="_blank">course webpage</a>.</p>
+                </div>
+                <button class="class-button" onclick="toggleDescription('CSCI322')">Description</button>
+            </li>
+            <li class="class-item">
+                <div class="class-title">Systems Administration</div>
+                <div id="CSCI351-description" class="class-description">
+                  <p>The administration and management of Linux computer systems. Includes installation, user/process management, configuration of services and device handling. A basic knowledge of Linux/Unix command structure is required.</p>
+                  <p>For more information on CSCI 351, visit the <a href="http://catalog.montana.edu/coursedescriptions/csci/" target="_blank">course webpage</a>.</p>
+                </div>
+                <button class="class-button" onclick="toggleDescription('CSCI351')">Description</button>
+            </li>
+            <li class="class-item">
+                <div class="class-title">Computer Systems</div>
+                <div id="CSCI366-description" class="class-description">
+                  <p>Introduces students to fundamental concepts in computer systems, including software environments and development tools, computer architecture and organization, concurrency, information management, network communications, and operating systems based on cloud computing.</p>
+                  <p>For more information on CSCI 366, visit the <a href="http://catalog.montana.edu/coursedescriptions/csci/" target="_blank">course webpage</a>.</p>
+                </div>
+                <button class="class-button" onclick="toggleDescription('CSCI366')">Description</button>
+            </li>
+            <li class="class-item">
+                <div class="class-title">Data Mining</div>
+                <div id="CSCI247-description" class="class-description">
+                  <p>Introduction to data acquisition and pre-processing, common data formats, graph models, itemset mining, clustering, dimensionality reduction, classification, and advanced topics for knowledge discovery from large-scale data sets, with a focus on applications to real-world data sets. M 221 and CSCI 246 are recommended</p>
+                  <p>For more information on CSCI 247, visit the <a href="http://catalog.montana.edu/coursedescriptions/csci/" target="_blank">course webpage</a>.</p>
+                </div>
+                <button class="class-button" onclick="toggleDescription('CSCI247')">Description</button>
+            </li>
+            <li class="class-item">
+                <div class="class-title">Human Computer Interaction</div>
+                <div id="CSCI445-description" class="class-description">
+                  <p>This course provides an introduction to human computer interaction for innovation in technologies. Students will explore the core principles, methodologies, and applications of human-centered design computing practices.</p>
+                  <p>For more information on CSCI 445, visit the <a href="http://catalog.montana.edu/coursedescriptions/csci/" target="_blank">course webpage</a>.</p>
+                </div>
+                <button class="class-button" onclick="toggleDescription('CSCI445')">Description</button>
+            </li>
+            <li class="class-item">
+                <div class="class-title">Embedded Systems: Robotics</div>
+                <div id="CSCI455-description" class="class-description">
+                  <p>The basic tools and techniques of embedded systems using robotics as a platform. Student teams will build an autonomous mobile robot, and learn to program it to perform increasingly sophisticated behaviors. Besides providing an introduction to autonomous mobile robot technologies, the students also learn key concepts of mechanics, electronics, programming techniques, and systems design and integration.</p>
+                  <p>For more information on CSCI 455, visit the <a href="http://catalog.montana.edu/coursedescriptions/csci/" target="_blank">course webpage</a>.</p>
+                </div>
+                <button class="class-button" onclick="toggleDescription('CSCI455')">Description</button>
+            </li>
+            <li class="class-item">
+                <div class="class-title">Computer Science Theory</div>
+                <div id="CSCI338-description" class="class-description">
+                  <p>Formal languages, theory, automata, Turing Machines, computability, the Church-Turing thesis, computational complexity, and NP-completeness.</p>
+                  <p>For more information on CSCI 338, visit the <a href="http://catalog.montana.edu/coursedescriptions/csci/" target="_blank">course webpage</a>.</p>
+                </div>
+                <button class="class-button" onclick="toggleDescription('CSCI338')">Description</button>
+            </li>
+            <li class="class-item">
+                <div class="class-title">Database Systems</div>
+                <div id="CSCI440-description" class="class-description">
+                  <p>DBMS architecture; major database models; relational algebra fundamentals; SQL query language; index file structures, data modeling and management, entity relationship diagrams. CSCI 366 is recommended.</p>
+                  <p>For more information on CSCI 440, visit the <a href="http://catalog.montana.edu/coursedescriptions/csci/" target="_blank">course webpage</a>.</p>
+                </div>
+                <button class="class-button" onclick="toggleDescription('CSCI440')">Description</button>
+            </li>
+            <li class="class-item">
+                <div class="class-title">User Interface Design</div>
+                <div id="CSCI443-description" class="class-description">
+                  <p>User Interface Design: UX Design Thinking is the process used to create products that provide meaningful and relevant experiences to users. Using a systematic human-centered design strategy, the aim is to make human interactions with computational systems more usable, useful, and desirable.</p>
+                  <p>For more information on CSCI 443, visit the <a href="http://catalog.montana.edu/coursedescriptions/csci/" target="_blank">course webpage</a>.</p>
+                </div>
+                <button class="class-button" onclick="toggleDescription('CSCI443')">Description</button>
+            </li>
+            <li class="class-item">
+                <div class="class-title">Compilers</div>
+                <div id="CSCI468-description" class="class-description">
+                  <p>Senior capstone course. Compiler design and construction. Scanning, parsing, symbol tables, semantic analysis, intermediate representations, run-time memory management, target code generation, and optimization. Implementation of a small compiler. CSCI 366 is recommended.</p>
+                  <p>For more information on CSCI 468, visit the <a href="http://catalog.montana.edu/coursedescriptions/csci/" target="_blank">course webpage</a>.</p>
+                </div>
+                <button class="class-button" onclick="toggleDescription('CSCI468')">Description</button>
+            </li>
+            <li class="class-item">
+                <div class="class-title">Computer Security</div>
+                <div id="CSCI476-description" class="class-description">
+                  <p>Introduction to computer security. Covers security issues in software design and development from technical, social and legal viewpoints. Topics include cryptography, security models, software security, authentication, authorization, and system security.</p>
+                  <p>For more information on CSCI 476, visit the <a href="http://catalog.montana.edu/coursedescriptions/csci/" target="_blank">course webpage</a>.</p>
+                </div>
+                <button class="class-button" onclick="toggleDescription('CSCI476')">Description</button>
+            </li>
+            <li class="class-item">
+                <div class="class-title">Program Assessment</div>
+                <div id="CSCI481-description" class="class-description">
+                  <p>Graduating Senior. (F, Sp) Students participate in activities that help measure how well program outcomes are being met.</p>
+                  <p>For more information on CSCI 481, visit the <a href="http://catalog.montana.edu/coursedescriptions/csci/" target="_blank">course webpage</a>.</p>
+                </div>
+                <button class="class-button" onclick="toggleDescription('CSCI481')">Description</button>
+            </li>
+            <li class="class-item">
+                <div class="class-title">Seminar: Industry Methods</div>
+                <div id="CSCI494801-description" class="class-description">
+                  <p>At the end of the course, students should be able to: Be comfortable with using / interacting with a code repository (i.e. git), Understand concepts of continuous delivery and Continous integration, Deploy and test software to a cloud environment, and Understand concepts involving telemetry and application monitoring</p>
+                  <p>For more information CSCI 494-801, visit the <a href="http://catalog.montana.edu/coursedescriptions/csci/" target="_blank">course webpage</a>.</p>
+                </div>
+                <button class="class-button" onclick="toggleDescription('CSCI494801')">Description</button>
+            </li>
+            <li class="class-item">
+                <div class="class-title">Seminar: eCommerce</div>
+                <div id="CSCI494001-description" class="class-description">
+                  <p>An introductory to eCommerce. Students will take part in learn tools and tatics in the section of eCommerce. At the end the students will work with a company to help improve it's area in eCommerce.</p>
+                  <p>For more information on CSCI 494-001, visit the <a href="http://catalog.montana.edu/coursedescriptions/csci/" target="_blank">course webpage</a>.</p>
+                </div>
+                <button class="class-button" onclick="toggleDescription('CSCI494001')">Description</button>
+            </li>
+        
+            <h2>Other Classes</h2>
+        
+            <li class="class-item">
+                <div class="class-title">Introduction to Astronomy: Mysteries of the Sky</div>
+                <div id="ASTR110IN-description" class="class-description">
+                  <p>An introduction to contemporary astronomy that explores the nature, methods, and limitations of scientific inquiry within the context of our struggle to understand the structure and evolution of the Universe. Topics include the history of astronomy, motions of the night sky, the solar system, stellar evolution, galaxies, and cosmology. Common Exams.</p>
+                  <p>For more information on ASTR 110IN, visit the <a href="http://catalog.montana.edu/coursedescriptions/astr/" target="_blank">course webpage</a>.</p>
+                </div>
+                <button class="class-button" onclick="toggleDescription('ASTR110IN')">Description</button>
+            </li>
+            <li class="class-item">
+                <div class="class-title">Calculus I</div>
+                <div id="M171Q-description" class="class-description">
+                  <p>Functions, elementary transcendental functions, limits and continuity, differentiation, applications of the derivative, curve sketching, and integration theory. COMMON FINAL EXAM.</p>
+                  <p>For more information on M 171Q, visit the <a href="http://catalog.montana.edu/coursedescriptions/m/" target="_blank">course webpage</a>.</p>
+                </div>
+                <button class="class-button" onclick="toggleDescription('M171Q')">Description</button>
+            </li>
+            <li class="class-item">
+                <div class="class-title">Calculus II</div>
+                <div id="M172Q-description" class="class-description">
+                  <p>Methods of integration, applications of the integral, infinite sequences and series including Taylor series, parametric and polar equations. COMMON FINAL ONLY.</p>
+                  <p>For more information on M 172Q, visit the <a href="http://catalog.montana.edu/coursedescriptions/m/" target="_blank">course webpage</a>.</p>
+                </div>
+                <button class="class-button" onclick="toggleDescription('M172Q')">Description</button>
+            </li>
+            <li class="class-item">
+                <div class="class-title">College Writing I</div>
+                <div id="WRIT101W-description" class="class-description">
+                  <p>Studies the nature and practice of reading and writing as human interaction, with particular attention to elements of writing process and craft, to present new conceptions of writing as students enter the university writing environment.</p>
+                  <p>For more information on WRIT 101W, visit the <a href="http://catalog.montana.edu/coursedescriptions/writ/" target="_blank">course webpage</a>.</p>
+                </div>
+                <button class="class-button" onclick="toggleDescription('WRIT101W')">Description</button>
+            </li>
+            <li class="class-item">
+                <div class="class-title">Intermediate Tech Writing</div>
+                <div id="WRIT221-description" class="class-description">
+                  <p>Focuses on kinds of writing done in technical or business environments: business letters, proposals, formal reports, technical presentations, user manuals, etc. Prepares students for technical writing in a range of disciplines and with attention to the social implications of technology.</p>
+                  <p>For more information on WRIT 221, visit the <a href="http://catalog.montana.edu/coursedescriptions/writ/" target="_blank">course webpage</a>.</p>
+                </div>
+                <button class="class-button" onclick="toggleDescription('WRIT221')">Description</button>
+            </li>
+            <li class="class-item">
+                <div class="class-title">Anthropology and the Human Experience</div>
+                <div id="ANTY101D-description" class="class-description">
+                  <p>Comparative focus on human behavior and human cultural systems from the local to global levels. The nature and sources of diversity associated with the human experience are explored and reinforced using examples from archaeology, biological anthropology, cultural anthropology, and linguistics.</p>
+                  <p>For more information on ANTY 101D, visit the <a href="http://catalog.montana.edu/coursedescriptions/anty/" target="_blank">course webpage</a>.</p>
+                </div>
+                <button class="class-button" onclick="toggleDescription('ANTY101D')">Description</button>
+            </li>
+            <li class="class-item">
+                <div class="class-title">Interdisciplinary Ways of Knowing</div>
+                <div id="LS101US-description" class="class-description">
+                  <p>Introduction to the processes of academic inquiry through examination of topics in disciplines encompassed by the Fine Arts, Humanities, Natural Sciences, and Social Sciences.</p>
+                  <p>For more information on LS 101US, visit the <a href="http://catalog.montana.edu/coursedescriptions/ls/" target="_blank">course webpage</a>.</p>
+                </div>
+                <button class="class-button" onclick="toggleDescription('LS101US')">Description</button>
+            </li>
+            <li class="class-item">
+                <div class="class-title">Introduction to Biotechnology</div>
+                <div id="BIOB105CS-description" class="class-description">
+                  <p>Introduction to an ever-growing industry. Course is designed to demonstrate the significance of biotechnology in today's world. Lecture series presented by research professors, social scientists, and industrial experts.</p>
+                  <p>For more information on BIOB 105CS, visit the <a href="http://catalog.montana.edu/coursedescriptions/biob/" target="_blank">course webpage</a>.</p>
+                </div>
+                <button class="class-button" onclick="toggleDescription('BIOB105CS')">Description</button>
+            </li>
+            <li class="class-item">
+                <div class="class-title">Intro To Logic Circuits</div>
+                <div id="EELE261-description" class="class-description">
+                  <p>An introductory course in the fundamental concepts of classical digital design. Course covers design and implementation of combinational logic circuits, synchronous sequential circuits and information storage circuits. Basic concepts of Hardware Description Languages(HDLs), design and simulation of digital systems using HDLs, and digital system implementation with programmable logic devices are presented.</p>
+                  <p>For more information on EELE 261, visit the <a href="http://catalog.montana.edu/coursedescriptions/eele/" target="_blank">course webpage</a>.</p>
+                </div>
+                <button class="class-button" onclick="toggleDescription('EELE261')">Description</button>
+            </li>
+            <li class="class-item">
+                <div class="class-title">Multidisciplinary Engineering Design</div>
+                <div id="EGEN310R-description" class="class-description">
+                  <p>Junior standing in an Engineering curriculum or consent of instructor. Introduces engineering students to topics such as design process, creative design, project management, teamwork, and technical leadership while highlighting the skills needed to work in an multi-disciplinary environment.</p>
+                  <p>For more information on EGEN 310R, visit the <a href="http://catalog.montana.edu/coursedescriptions/egen/" target="_blank">course webpage</a>.</p>
+                </div>
+                <button class="class-button" onclick="toggleDescription('EGEN310R')">Description</button>
+            </li>
+            <li class="class-item">
+                <div class="class-title">Introduction to Statistics</div>
+                <div id="STAT216Q-description" class="class-description">
+                  <p>Traditional and resistant estimators of location and spread, fundamentals of inference using randomization and classical methods, confidence intervals, and tests of hypotheses. This course is taught in the TEAL format. COMMON FINAL ONLY</p>
+                  <p>For more information on STAT 216Q, visit the <a href="http://catalog.montana.edu/coursedescriptions/stat/" target="_blank">course webpage</a>.</p>
+                </div>
+                <button class="class-button" onclick="toggleDescription('STAT216Q')">Description</button>
+            </li>
+            <li class="class-item">
+                <div class="class-title">Intermediate Statistical Concepts</div>
+                <div id="STAT217Q-description" class="class-description">
+                  <p>One- and two-sample tests and associated confidence intervals for means and proportions; analysis of variance; F-tests, correlation, regression, contingency tables. Statistical analysis using the computer. COMMON FINAL ONLY.</p>
+                  <p>For more information on STAT 217Q, visit the <a href="http://catalog.montana.edu/coursedescriptions/stat/" target="_blank">course webpage</a>.</p>
+                </div>
+                <button class="class-button" onclick="toggleDescription('STAT217Q')">Description</button>
+            </li>
+            <li class="class-item">
+                <div class="class-title">Earth System Sciences</div>
+                <div id="ERTH101IN-description" class="class-description">
+                  <p>Examination of basic geologic processes, Earth and planets through geologic time, internal geosystems, and surficial geosystems.</p>
+                  <p>For more information on ERTH 101IN, visit the <a href="http://catalog.montana.edu/coursedescriptions/erth/" target="_blank">course webpage</a>.</p>
+                </div>
+                <button class="class-button" onclick="toggleDescription('ERTH101IN')">Description</button>
+            </li>
+            <li class="class-item">
+                <div class="class-title">Introduction to Literature</div>
+                <div id="LIT110IH-description" class="class-description">
+                  <p>Introduction to basic concepts including but not limited to: plot, character, theme, symbol, and the primary literary modes of poetry, fiction, and drama.</p>
+                  <p>For more information on LIT 110IH, visit the <a href="http://catalog.montana.edu/coursedescriptions/lit/" target="_blank">course webpage</a>.</p>
+                </div>
+                <button class="class-button" onclick="toggleDescription('LIT110IH')">Description</button>
+            </li>
+            <li class="class-item">
+                <div class="class-title">Beginning Bowling</div>
+                <div id="ACT104-description" class="class-description">
+                  <p>Bowling fundamentals will be stressed along with bowling etiquette and equipment. Fee required.</p>
+                  <p>For more information on ACT 104, visit the <a href="http://catalog.montana.edu/coursedescriptions/act/" target="_blank">course webpage</a>.</p>
+                </div>
+                <button class="class-button" onclick="toggleDescription('ACT104')">Description</button>
+            </li>
+            <li class="class-item">
+                <div class="class-title">Beginning Weight Training</div>
+                <div id="ACT110-description" class="class-description">
+                  <p>Learn proper weight lifting techniques, how to create a personalized weight training program, and the basics of anatomy/physiology as they relate to weight lifting.</p>
+                  <p>For more information on ACT 110, visit the <a href="http://catalog.montana.edu/coursedescriptions/act/" target="_blank">course webpage</a>.</p>
+                </div>
+                <button class="class-button" onclick="toggleDescription('ACT110')">Description</button>
+            </li>
+            <li class="class-item">
+                <div class="class-title">Beginning Yoga</div>
+                <div id="ACT150-description" class="class-description">
+                  <p>This class is designed for the beginning yoga student. Students will learn to demonstrate basic knowledge of yoga postures and philosophy, identify basic anatomy and principles of alignment and identify the values of mind-body fitness toward a healthy lifestyle. Pass/Fail.</p>
+                  <p>For more information on ACT 150, visit the <a href="http://catalog.montana.edu/coursedescriptions/act/" target="_blank">course webpage</a>.</p>
+                </div>
+                <button class="class-button" onclick="toggleDescription('ACT150')">Description</button>
+            </li>
+            <li class="class-item">
+                <div class="class-title">Beginning Billiards</div>
+                <div id="ACT151-description" class="class-description">
+                  <p> Pocket billiard fundamentals, most popular games, and appropriate rules will be stressed.</p>
+                  <p>For more information on ACT 151, visit the <a href="http://catalog.montana.edu/coursedescriptions/act/" target="_blank">course webpage</a>.</p>
+                </div>
+                <button class="class-button" onclick="toggleDescription('ACT151')">Description</button>
+            </li>
+            <li class="class-item">
+                <div class="class-title">Pilates</div>
+                <div id="ACT250-description" class="class-description">
+                  <p>A Pilates-based mat class combining core alignment, posture, and flexibility exercises to build strength and to improve flexibility, agility, body awareness and posture.</p>
+                  <p>For more information on ACT 250, visit the <a href="http://catalog.montana.edu/coursedescriptions/act/" target="_blank">course webpage</a>.</p>
+                </div>
+                <button class="class-button" onclick="toggleDescription('ACT250')">Description</button>
+            </li>
+          </ul>
+    </main>
+
+    <!-- Footer -->
+    <div id="footer-placeholder"></div>
+
+</body>
+</html>

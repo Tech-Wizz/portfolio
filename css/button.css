@@ -1,0 +1,15 @@
+/* Define the basic styles for the button */
+.custom-button {
+    padding: 10px 20px; /* Adjust padding to change button size */
+    background-color: #007bff; /* Button background color */
+    color: #c77575; /* Text color */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+/* Add hover effect */
+.custom-button:hover {
+    background-color: #0056b3; /* Change background color on hover */
+}
