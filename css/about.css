@@ -1,0 +1,29 @@
+/* Style for the button */
+.button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Style for the document (hidden by default) */
+.document {
+    display: none;
+}
+
+p {
+    
+}
+
+/* CSS for larger screens */
+.image {
+    max-width: 100%; /* Image will be 100% of its container's width */
+}
+
+/* CSS for smaller screens (using a media query) */
+@media screen and (max-width: 600px) {
+    .image {
+        max-width: 80%; /* Adjust the maximum width for smaller screens as needed */
+    }
+}
