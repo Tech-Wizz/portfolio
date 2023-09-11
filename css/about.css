@@ -12,10 +12,6 @@
     display: none;
 }
 
-p {
-    
-}
-
 /* CSS for larger screens */
 .image {
     max-width: 100%; /* Image will be 100% of its container's width */
