@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    #ripple {
+      position: absolute;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background-color: rgb(255, 8, 0);
+      transform: scale(0);
+      transition: transform 0.5s, opacity 0.5s;
+    }
+  </style>
+</head>
+<body>
+  <div id="ripple"></div>
+
+  <script src="move.js"></script>
+  <script src="ripple.js"></script>
+</body>
+</html>
