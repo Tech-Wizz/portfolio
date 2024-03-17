@@ -1,0 +1,100 @@
+{
+  "colleges": [
+    {
+    "Name": "Montana State University",
+    "City": "Bozeman",
+    "Latitude": 45.6770,
+    "Longitude": -111.0429,
+    "Founded_Year": 1893,
+    "Number_of_Students": 16688,
+    "Mascot": "Champ",
+    "Symbol": "book.closed",
+    "MainColor" : "yellow"
+    "Division": "NCAA Division I",
+    "Degrees": [
+        {
+        "Name": "Bachelor of Business Administration",
+        "Category": "Business",
+        "Years_to_Complete": 4
+        },
+        {
+        "Name": "Bachelor of Science in Mechanical Engineering",
+        "Category": "Engineering",
+        "Years_to_Complete": 4
+        }
+    ]
+    },
+    {
+      "Name": "University of Montana",
+      "City": "Missoula",
+      "Latitude": 46.8600,
+      "Longitude": -113.9840,
+      "Founded_Year": 1893,
+      "Number_of_Students": 10689,
+      "Mascot": "Monte",
+      "Symbol": "book.closed",
+      "MainColor" : "red"
+      "Division": "NCAA Division I",
+      "Degrees": [
+        {
+          "Name": "Bachelor of Science in Computer Science",
+          "Category": "Science & Technology",
+          "Years_to_Complete": 4
+        },
+        {
+          "Name": "Bachelor of Arts in English",
+          "Category": "Humanities",
+          "Years_to_Complete": 4
+        }
+      ]
+    },
+    {
+      "Name": "Montana Tech",
+      "City": "Butte",
+      "Latitude": 45.9961,
+      "Longitude": -112.5333,
+      "Founded_Year": 1889,
+      "Number_of_Students": 2680,
+      "Mascot": "Orediggers",
+      "Symbol": "book.closed",
+      "MainColor" : "green"
+      "Division": "NAIA",
+      "Degrees": [
+        {
+          "Name": "Bachelor of Science in Mining Engineering",
+          "Category": "Engineering",
+          "Years_to_Complete": 4
+        },
+        {
+          "Name": "Bachelor of Science in Nursing",
+          "Category": "Health Sciences",
+          "Years_to_Complete": 4
+        }
+      ]
+    },
+    {
+      "Name": "Carroll College",
+      "City": "Helena",
+      "Latitude": 46.5958,
+      "Longitude": -112.0361,
+      "Founded_Year": 1909,
+      "Number_of_Students": 1461,
+      "Mascot": "Saints",
+      "Symbol": "book.closed",
+      "MainColor" : "purple"
+      "Division": "NAIA",
+      "Degrees": [
+        {
+          "Name": "Bachelor of Arts in Psychology",
+          "Category": "Social Sciences",
+          "Years_to_Complete": 4
+        },
+        {
+          "Name": "Bachelor of Science in Biology",
+          "Category": "Science & Technology",
+          "Years_to_Complete": 4
+        }
+      ]
+    }
+  ]
+}
