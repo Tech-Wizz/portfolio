@@ -7,6 +7,21 @@
     cursor: pointer;
 }
 
+a{
+    font-family: Calibri, sans-serif;
+}
+
+p{
+    text-align: justify;
+    text-align-last: center;
+    text-justify: inter-word; 
+    margin-bottom: 20px;
+    font-family: Calibri, sans-serif; /* Set the font-family to Calibri and provide a fallback font if Calibri is not available */
+    font-size: 18px; /* Specify the font size (you were missing "px" in your original code) */
+    padding: 0 30px;
+    
+}
+
 /* Style for the document (hidden by default) */
 .document {
     display: none;
@@ -14,12 +29,13 @@
 
 /* CSS for larger screens */
 .image {
-    max-width: 100%; /* Image will be 100% of its container's width */
+    max-width: 60%; 
 }
 
 /* CSS for smaller screens (using a media query) */
 @media screen and (max-width: 600px) {
     .image {
-        max-width: 80%; /* Adjust the maximum width for smaller screens as needed */
+        max-width: 100%; 
     }
 }
+
