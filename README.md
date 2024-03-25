@@ -1,1 +1,1 @@
-# kruizechristensen.github.io
+# kruizechristensen.com
