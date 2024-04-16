@@ -229,6 +229,42 @@ body {
     margin-bottom: 10px;
 }
 
+/* Style the carousel container */
+.carousel {
+    max-width: 100%;
+    overflow: hidden;
+    margin-bottom: 20px; /* Add space below the carousel */
+}
+
+/* Style the slider */
+.slider {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.slider div {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+/* Style the image grid container */
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(33%, 1fr));
+    gap: 20px;
+}
+
+/* Style the individual grid items */
+.image-grid div {
+    overflow: hidden;
+}
+
+/* Style the images within the grid */
+.image-grid img {
+    width: 100%;
+    height: auto;
+}
+
 .text-overlay p {
     font-size: 18px;
 }
