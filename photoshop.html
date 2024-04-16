@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
+</head>
+<body>
+    <!-- Header -->
+    <div id="header-placeholder"></div>
+
+    <!-- Top Carousel -->
+    <div class="carousel">
+        <div class="slider">
+            <div><img src="images/photoshop/image1.jpg" alt="Image 1"></div>
+            <div><img src="images/photoshop/image2.jpg" alt="Image 2"></div>
+            <!-- Add more images here -->
+        </div>
+    </div>
+
+    <!-- Middle Section with Dark/Light Mode Toggle -->
+    <main class="content">
+        <h1>Welcome to My Template</h1>
+        <p>This is the middle section of the webpage.</p>
+    </main>
+
+    <!-- Image Grid -->
+    <div class="image-grid">
+        <div><img src="images/photoshop/image3.jpg" alt="Image 3"></div>
+        <div><img src="images/photoshop/image4.jpg" alt="Image 4"></div>
+        <!-- Add more images here -->
+    </div>
+
+    <!-- Footer -->
+    <div id="footer-placeholder"></div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/global.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/min/tiny-slider.js"></script>
+    <script>
+        $(document).ready(function(){
+            var slider = tns({
+                container: '.slider',
+                items: 1,
+                slideBy: 'page',
+                autoplay: true,
+                controls: false,
+                nav: false
+            });
+        });
+    </script>
+</body>
+</html>
