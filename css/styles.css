@@ -268,3 +268,10 @@ body {
 .text-overlay p {
     font-size: 18px;
 }
+
+.centerImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
