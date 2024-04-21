@@ -270,8 +270,18 @@ body {
 }
 
 .centerImg {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+.app-nav-icon {
+    border-radius: 15px;
+}
+
+.app-nav-link {
+    display: flex;        
+    justify-content: center;
+    align-items: center;
 }
