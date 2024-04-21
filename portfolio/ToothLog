@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tooth Log App</title>
+    <link rel="icon" href="../images/KruizeChristensen.png" type="../image/png" />
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../js/global.js"></script>
+    <link rel="stylesheet" href="../css/images.css">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <div id="header-placeholder"></div>
+
+    <!-- Middle Section-->
+    <main class="content">
+        <div class="image-container">
+            <img src="../images/projects/toothlog/tooth.jpeg" alt="Tooth Log App Display">
+            <div class="text-overlay">
+                <h1>Tooth Log App</h1>
+            </div>
+        </div>
+
+        <h1>Integration with Apple HealthKit</h1>
+        <p>Tooth Log integrates seamlessly with Apple HealthKit, allowing users to track their oral hygiene habits alongside other health metrics. By leveraging HealthKit, Tooth Log can access vital data such as brushing duration, frequency, and other oral health indicators. This integration provides users with a comprehensive view of their overall health and helps them maintain optimal oral hygiene.</p>
+
+        <h2>App Functionality</h2>
+        <p>With Tooth Log, users can enjoy a range of features designed to enhance their oral care routine:</p>
+        <ul>
+            <li><strong>Circular Status Bar:</strong> The circular status bar visually represents the remaining brushing time, offering real-time feedback and encouraging users to complete their brushing sessions effectively.</li>
+            <li><strong>Timer with Status Bar:</strong> The timer feature works in conjunction with the status bar, providing users with precise control over their brushing duration and ensuring thorough oral hygiene.</li>
+            <li><strong>Optional Logging:</strong> Users have the option to log their brushing sessions within the app, enabling them to track their oral care habits over time and receive personalized insights for better dental health.</li>
+        </ul>
+
+        <h2>YouTube Video Demonstration</h2>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/rMXXomCTnzk?autoplay=1&loop=1&playlist=rMXXomCTnzk" title="Tooth Log App Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+    </main>
+    <img src="../images/sawtooth.png" width="100%">
+
+    <!-- Footer -->
+    <div id="footer-placeholder"></div>
+
+</body>
+</html>
