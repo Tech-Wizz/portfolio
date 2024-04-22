@@ -12,6 +12,7 @@ h1, h2, h3 {
     padding: 10px 20px;
     border: none;
     cursor: pointer;
+    justify-content: center; 
 }
 
 a{
