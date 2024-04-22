@@ -6,12 +6,20 @@ h1, h2, h3 {
     font-family: Calibri, sans-serif; /* Set the font-family to Calibri and provide a fallback font if Calibri is not available */
 }
 
+.button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
 a{
     font-family: Calibri, sans-serif;
 }
 
 /* Style paragraphs */
-p, li, ol, a {
+p, li, ol {
     text-align: justify;
     text-align-last: center;
     text-justify: inter-word; 
