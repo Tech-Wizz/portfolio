@@ -6,15 +6,6 @@ h1, h2, h3 {
     font-family: Calibri, sans-serif; /* Set the font-family to Calibri and provide a fallback font if Calibri is not available */
 }
 
-.button {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    justify-content: center; 
-}
-
 a{
     font-family: Calibri, sans-serif;
 }
@@ -308,4 +299,20 @@ body {
     display: flex;
     justify-content: center; 
     margin-top: 20px; 
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Vertically center the button */
+    margin-top: 20px; /* Adjust the margin as needed */
+}
+
+.button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px; /* Make the button rounded */
 }
