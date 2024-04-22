@@ -295,7 +295,7 @@ body {
     margin-top: 20px;
 }
 
-.iframe-container {
+iframe {
     width: 50%; 
     margin: 20px auto; 
 }
