@@ -36,3 +36,24 @@
   .class-button {
     margin-top: 10px;
   }
+
+  .class-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Ensure two items per row */
+  }
+  
+  .class-item {
+    width: calc(50% - 10px); /* Adjust width for two items per row */
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; /* Include padding and border in width calculation */
+  }
+  
+  @media (max-width: 600px) {
+    .class-item {
+      width: calc(100% - 10px); /* Adjust width for one item per row on smaller screens */
+    }
+  }
