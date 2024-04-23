@@ -37,7 +37,7 @@ p, li, ol{
 :root {
     --bg-color: #f2f2f2; /* Light background color */
     --text-color: #333; /* Dark text color */
-}
+} 
 
 /* Dark mode styles */
 @media (prefers-color-scheme: dark) {
@@ -82,6 +82,8 @@ body {
 /* Style the image container */
 .image-container {
     position: relative;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 /* Style the image */
