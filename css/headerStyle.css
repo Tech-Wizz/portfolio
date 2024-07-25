@@ -228,12 +228,19 @@ body {
 /* Style the image container */
 .image-container {
     position: relative;
+    width: 100%; /* Set the width you want */
+    max-width: 1000px; /* Optional: limit the maximum width */
+    height: 175px; /* Set the fixed height you want */
+    overflow: hidden; /* Ensure overflow is hidden */
+    margin: 0 auto; /* Center the container horizontally */
 }
 
 /* Style the image */
 .image-container img {
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the container */
+    display: block; /* Ensure the image does not have default inline spacing */
 }
 
 /* Style the text overlay */
@@ -249,6 +256,8 @@ body {
     justify-content: center;
     align-items: center;
     color: white;
+    pointer-events: none; /* Ensures the overlay does not interfere with image events */
+    text-align: center; /* Center text horizontally */
 }
 
 /* Style the text elements within the overlay */
