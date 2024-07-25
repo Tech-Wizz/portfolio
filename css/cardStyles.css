@@ -77,36 +77,6 @@ body {
     flex-grow: 1;
 }
 
-
-
-/* Style the image container */
-.image-container {
-    position: relative;
-    border-radius: 10px;
-    overflow: hidden;
-}
-
-/* Style the image */
-.image-container img {
-    width: 100%;
-    height: auto;
-}
-
-/* Style the text overlay */
-.text-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.2);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-}
-
 /* Style the text elements within the overlay */
 .text-overlay h1 {
     font-size: 36px;
