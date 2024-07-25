@@ -30,7 +30,7 @@ p{
 
 /* CSS for larger screens */
 .image {
-    max-width: 60%; 
+    max-width: 40%; 
 }
 
 /* CSS for smaller screens (using a media query) */
