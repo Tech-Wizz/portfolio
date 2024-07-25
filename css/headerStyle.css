@@ -229,7 +229,6 @@ body {
 .image-container {
     position: relative;
     width: 100%; /* Set the width you want */
-    max-width: 1000px; /* Optional: limit the maximum width */
     height: 175px; /* Set the fixed height you want */
     overflow: hidden; /* Ensure overflow is hidden */
     margin: 0 auto; /* Center the container horizontally */
