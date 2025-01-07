@@ -19,8 +19,14 @@ function Dinosaur(x, dividerY) {
     this.y = dividerY - this.height;
     this.vy = 0;
     this.jumpVelocity = -15;
-    this.color = "red"; // Set the dinosaur color
+    //this.image = new Image();
+    //this.image.src = "img/runner.png"; // Load the image
+    this.color = "red";
 }
+
+//Dinosaur.prototype.draw = function(context) {
+//    context.drawImage(this.image, this.x, this.y, this.width, this.height);
+//};
 
 Dinosaur.prototype.draw = function(context) {
     var oldFill = context.fillStyle;
