@@ -3,13 +3,13 @@
 }
 
 :root {
-    --ground-color: white;
+    --ground-color: red;
     --cactus-color: green;
     --water-color: blue;
     --fly-color: black;
     --score-color: black;
     --score-font: 20px serif;
-    --game-over-color: green;
+    --game-over-color: red;
     --game-over-font: 48px 'Roboto', sans-serif;
 }
 
