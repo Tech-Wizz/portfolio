@@ -20,14 +20,11 @@ function Dinosaur(x, dividerY) {
     this.vy = 0;
     this.jumpVelocity = -15;
     this.image = new Image();
-    //this.image.src = "../random/runner/img/runner.png"; // Load the image
+    this.image.src = "../img/runner.png"; // Load the image
 }
 
 Dinosaur.prototype.draw = function(context) {
-    var oldFill = context.fillStyle;
-    context.fillStyle = "yellow";
-    context.fillRect(this.x, this.y, this.width, this.height);
-    context.fillStyle = oldFill;
+    context.drawImage(this.image, this.x, this.y, this.width, this.height);
 };
 
 Dinosaur.prototype.jump = function() {
@@ -166,7 +163,7 @@ function Game() {
     this.context = canvas.getContext("2d");
     document.spacePressed = false;
 
-    // Event listener for spacebar
+    // Event listener for keyboard inputs
     document.addEventListener("keydown", function(e) {
         if (e.key === " " || e.key === "ArrowUp") this.spacePressed = true;
     });
@@ -182,6 +179,14 @@ function Game() {
         document.spacePressed = false;
     });
 
+    // Event listener for touch interactions
+    canvas.addEventListener("touchstart", function() {
+        document.spacePressed = true;
+    });
+    canvas.addEventListener("touchend", function() {
+        document.spacePressed = false;
+    });
+
     // Event listener for restart button
     var restartButton = document.getElementById("restartButton");
     restartButton.addEventListener("click", () => {
@@ -189,7 +194,7 @@ function Game() {
         startGame();
     });
 
-    this.gravity = .7;
+    this.gravity = 0.7;
     this.divider = new Divider(this.width, this.height);
     this.dino = new Dinosaur(Math.floor(0.1 * this.width), this.divider.y);
     this.obstacles = [];
@@ -206,6 +211,7 @@ function Game() {
         this.highScore = 0;
     }
 }
+
 
 Game.prototype.spawnObstacle = function(probability) {
     if (Math.random() <= probability) {
