@@ -20,7 +20,7 @@ function Dinosaur(x, dividerY) {
     this.vy = 0;
     this.jumpVelocity = -15;
     this.image = new Image();
-    this.image.src = "../img/runner.png"; // Load the image
+    this.image.src = "/img/runner.png"; // Load the image
 }
 
 Dinosaur.prototype.draw = function(context) {
