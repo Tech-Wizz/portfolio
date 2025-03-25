@@ -1,3 +1,4 @@
 theme: jekyll-theme-minimal
 title: Kruize's homepage
 description: Bookmark this to keep an eye on my project updates!
+use_directory_urls: true
