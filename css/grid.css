@@ -1,7 +1,7 @@
 /* Define the grid container */
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 columns by default */
+    grid-template-columns: repeat(4, 1fr); /* 2 columns by default */
     grid-template-rows: repeat(2, 1fr); /* 2 rows by default */
     gap: 20px; /* Gap between grid items */
     padding: 20px; /* Padding around the grid */
