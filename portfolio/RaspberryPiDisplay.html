@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raspberry Pi Display</title>
+    <link rel="icon" href="../images/KruizeChristensen.png" type="../image/png" />
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../js/global.js"></script>
+    <link rel="stylesheet" href="../css/images.css">
+    <link rel="stylesheet" href="../css/styles.css">
+
+
+</head>
+<body>
+    <div id="header-placeholder"></div>
+    <main class="content">
+        
+<h1>Raspberry Pi Display Project</h1>
+
+        <section class="project-section">
+            <h2>Overview</h2>
+            <p>
+                This project uses a lightweight Raspberry Pi Zero W as a dedicated display device for an internal 
+                company dashboard. The goal was to create a reliable, low‑power unit capable of automatically launching 
+                an intraweb page on boot, running in fullscreen, and refreshing at regular intervals with minimal 
+                maintenance required.
+            </p>
+        </section>
+
+        <section class="project-section">
+            <h2>Hardware</h2>
+            <p>
+                For this project, I used the 
+                <strong>CanaKit Raspberry Pi Zero W (Wireless) Complete Starter MAX Kit – 64GB Edition</strong>.
+                This kit provided everything needed for a compact display computer:
+            </p>
+
+            <ul>
+                <li>Raspberry Pi Zero W (Wi‑Fi enabled)</li>
+                <li>Premium black case</li>
+                <li>64GB microSD (pre‑loaded with NOOBS)</li>
+                <li>Power supply and HDMI adapter components</li>
+            </ul>
+
+            <p>
+                Since the only required function was opening and displaying a single intraweb page, the Pi Zero W's 
+                modest processing power was more than sufficient.
+            </p>
+
+            <img src="images/projects/RaspberryPiDisplay/rpi0Kit.jpg" 
+                <section class="project-section">
+            <h2>Operating System & Boot Customization</h2>
+            <p>
+                The system runs <strong>Raspberry Pi OS</strong> with customized boot graphics and icons to match 
+                company branding. Upon powering on, the Pi automatically launches a startup script 
+                (<code>run.sh</code>) which triggers the Python display program.
+            </p>
+        </section>
+
+        <section class="project-section">
+            <h2>Automation & Display Logic</h2>
+            <p>
+                A Python script (<code>tv.py</code>) handles opening the dashboard page, switching to fullscreen mode, 
+                and refreshing the display at set intervals. The script uses:
+            </p>
+
+            <ul>
+                <li><strong>webbrowser</strong> – launch the internal dashboard</li>
+                <li><strong>pyautogui</strong> – simulate keyboard input (F11 fullscreen, F5 refresh)</li>
+                <li><strong>xdotool</strong> – ensure the browser window is active</li>
+            </ul>
+
+            <h3>Python Code</h3>
+
+            <pre><code>import pyautogui
+import webbrowser
+import time
+import os
+
+pyautogui.FAILSAFE = False
+
+url = "https://intraweb.company.com/dist/Shipping"
+
+webbrowser.open(url)
+
+time.sleep(60)
+
+os.system('xdotool search --onlyvisible --class midori windowactivate')
+
+pyautogui.press('f11')
+
+# Get screen size
+screen_width, screen_height = pyautogui.size()
+print(screen_width)
+print(screen_height)
+
+# Move mouse to rest
+pyautogui.moveTo(screen_width, screen_height)
+
+while True:
+    # Wait for 60 minutes (10=600 seconds)
+    time.sleep(3600)
+    # Execute the tab-reload command to refresh the page
+    pyautogui.press('f5')
+    print("Reloaded")
+</code></pre>
+        </section
+
+
+    </main>
+
+    <a href="https://www.google.com/search?q=saw+tooth+mountian+range+in+montana&oq=saw+tooth+mountian+range+in+montana&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yDQgCEAAYhgMYgAQYigUyDQgDEAAYhgMYgAQYigUyDQgEEAAYhgMYgAQYigUyDQgFEAAYhgMYgAQYigXSAQg5MTEzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8" style="font-size:0px;">
+        <img src="../images/sawtooth.png" width="100%" style="margin-bottom:0px; padding: 0;">
+    </a>
+
+    <!-- Footer -->
+    <div id="footer-placeholder"></div>
+</body>
+</html>
