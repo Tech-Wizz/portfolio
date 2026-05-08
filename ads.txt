@@ -1,0 +1,16 @@
+# ads.txt for kruizechristensen.com
+# This file declares authorized digital ad sellers per IAB Tech Lab spec.
+# https://iabtechlab.com/ads-txt/
+#
+# IMPORTANT: This is a TEMPLATE. You must replace the example lines below
+# with the records provided by YOUR actual ad networks/exchanges.
+# If you do not run ads on this site, you can either delete this file or
+# leave it empty. An incorrect ads.txt can cause ads to stop serving.
+#
+# Format: <domain>, <publisher account ID>, <DIRECT|RESELLER>, <certification authority ID (optional)>
+#
+# Example (Google AdSense — replace pub-XXXXXXXXXXXXXXXX with your own):
+# google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
+#
+# Example (Google Ad Manager):
+# google.com, pub-0000000000000000, RESELLER, f08c47fec0942fa0

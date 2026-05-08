@@ -1,0 +1,8 @@
+# robots.txt for kruizechristensen.com
+# Last updated: 2026-05-08
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://kruizechristensen.com/sitemap.xml

@@ -1,0 +1,28 @@
+# Kruize Christensen
+
+> Personal portfolio of Kruize Christensen, a software developer based in Montana. The site showcases mobile and web development projects, robotics work, and ventures including a t-shirt company and a podcast.
+
+Kruize is a software developer with experience in iOS development (Swift, SwiftUI, HealthKit), web development (HTML, CSS, JavaScript), and robotics. He is a Montana State University alumnus and former member of the RoboSub robotics club. The portfolio highlights both academic and personal projects alongside entrepreneurial ventures.
+
+## Main Pages
+
+- [Home](https://kruizechristensen.com/): Landing page with introduction and project overview
+- [Contact](https://kruizechristensen.com/contact.html): Direct email contact information
+
+## Portfolio Projects
+
+- [App Brewery Apps](https://kruizechristensen.com/portfolio/AppBrewery.html): Collection of iOS apps built during the App Brewery course
+- [Tooth Log App](https://kruizechristensen.com/portfolio/ToothLog.html): iOS app exploring Apple HealthKit functionality through tooth brushing tracking
+- [Harvest Hills Golf App](https://kruizechristensen.com/portfolio/HarvestHillsGolfApp.html): Mobile app for a local Montana golf course serving average members
+- [Tango Bot](https://kruizechristensen.com/portfolio/TangoBot.html): Human services robot designed to perform basic assigned tasks
+- [RoboCats Website](https://kruizechristensen.com/portfolio/RoboCatsWebsite.html): Website built for Montana State University's RoboSub competition club
+- [Typhoon](https://kruizechristensen.com/portfolio/Typhoon.html): Autonomous underwater vehicle built for Montana State University's RoboSub competition
+
+## Ventures
+
+- [Mountain Wizard](https://www.mountainwizardllc.com/): T-shirt company owned and operated by Kruize
+- [Montana Wizard](https://montanawizard.com/): Podcast created and hosted by Kruize
+
+## Optional
+
+- [Portfolio Source](https://kruizechristensen.com/): The site is built with hand-written HTML and custom CSS
